@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://akiramyassine.gt.tc/sitemap-index.xml

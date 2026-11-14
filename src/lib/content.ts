@@ -15,7 +15,12 @@ export const items = Object.values(import.meta.glob<Item>('../../content/items/*
   .sort((a, b) => a.id.localeCompare(b.id));
 export { business };
 export const cityAddress = business.locality + ' ' + business.postalCode;
-export const route = (lang: Locale, path = '') => '/' + [lang === 'fr' ? '' : lang, path].filter(Boolean).map(value => value + '/').join('');
+export const pagePath = (lang: Locale, path = '') => [lang === 'fr' ? '' : lang, path].filter(Boolean).join('/');
+export const asset = (path: string) => import.meta.env.BASE_URL.replace(/\/$/, '') + '/' + path.replace(/^\//, '');
+export const route = (lang: Locale, path = '') => {
+  const page = pagePath(lang, path);
+  return asset(page ? page + '/' : '');
+};
 export const listing = (kind: Item['kind']) => kind === 'portfolio' ? 'realisations' : 'catalogue';
 export const itemPath = (item: Item) => listing(item.kind) + '/' + item.id;
 export const whatsapp = (message: string) => 'https://wa.me/' + business.whatsapp + '?text=' + encodeURIComponent(message);

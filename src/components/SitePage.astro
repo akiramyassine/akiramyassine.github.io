@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { business, categories, cityAddress, copy, items, itemPath, listing, route, whatsapp, type Item, type Locale } from '../lib/content';
+import { asset, business, categories, cityAddress, copy, items, itemPath, listing, route, whatsapp, type Item, type Locale } from '../lib/content';
 
 interface Props { lang: Locale; path: string; item?: Item; category?: string; }
 const { lang, path, item, category } = Astro.props;
@@ -27,7 +27,7 @@ const chat = whatsapp(item ? t.itemQuestion + ' « ' + title + ' » (' + item.id
           </div>
         </div>
         <div class="brand-panel">
-          <img src="/brand.webp" width="800" height="616" alt={business.name + ' · ' + t.identity} fetchpriority="high" />
+          <img src={asset('brand.webp')} width="800" height="616" alt={business.name + ' · ' + t.identity} fetchpriority="high" />
         </div>
       </div>
     </section>
@@ -42,7 +42,7 @@ const chat = whatsapp(item ? t.itemQuestion + ' « ' + title + ' » (' + item.id
       <a class="back" href={route(lang, section)}>{t.back} · {portfolio ? t.portfolio : t.catalog}</a>
       <div class="detail">
         <div class="gallery" aria-label={t.gallery}>
-          {item.images.map((photo, index) => <a href={photo.src}><img src={photo.src} width={photo.width} height={photo.height} loading={index === 0 ? 'eager' : 'lazy'} alt={photo.alt[lang]} /></a>)}
+          {item.images.map((photo, index) => <a href={asset(photo.src)}><img src={asset(photo.src)} width={photo.width} height={photo.height} loading={index === 0 ? 'eager' : 'lazy'} alt={photo.alt[lang]} /></a>)}
         </div>
         <div class="detail-copy">
           <p class="eyebrow">{categories[item.category][lang]}</p>
@@ -64,7 +64,7 @@ const chat = whatsapp(item ? t.itemQuestion + ' « ' + title + ' » (' + item.id
       </div>}
       {entries.length > 0 ? <div class="cards">
         {entries.map(entry => <a class="card" href={route(lang, itemPath(entry))}>
-          <img src={entry.images[0].src} width={entry.images[0].width} height={entry.images[0].height} alt={entry.images[0].alt[lang]} loading="lazy" />
+          <img src={asset(entry.images[0].src)} width={entry.images[0].width} height={entry.images[0].height} alt={entry.images[0].alt[lang]} loading="lazy" />
           <div><p>{categories[entry.category][lang]}</p><h2>{entry.translations[lang].title}</h2></div>
         </a>)}
       </div> : <p class="empty">{portfolio ? t.portfolioEmpty : t.empty}</p>}

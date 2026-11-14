@@ -1,6 +1,6 @@
 ---
 import SitePage from '../components/SitePage.astro';
-import { categories, itemPath, items, locales, route } from '../lib/content';
+import { categories, itemPath, items, locales, pagePath } from '../lib/content';
 import type { Item, Locale } from '../lib/content';
 
 export function getStaticPaths() {
@@ -10,7 +10,7 @@ export function getStaticPaths() {
     ...items.map(item => ({ path: itemPath(item), item })),
   ];
   return locales.flatMap(lang => pages.map(page => ({
-    params: { page: route(lang, page.path).replace(/^\/|\/$/g, '') || undefined },
+    params: { page: pagePath(lang, page.path) || undefined },
     props: { lang, ...page },
   })));
 }

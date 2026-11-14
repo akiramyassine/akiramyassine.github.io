@@ -140,13 +140,21 @@ test('compile les catégories dynamiques et les deux types de fiches avec leurs 
 
   const astro = resolve('node_modules/astro');
   const { bin } = JSON.parse(await readFile(join(astro, 'package.json'), 'utf8'));
-  execFileSync(process.execPath, [join(astro, bin.astro ?? bin), 'build'], { cwd: f.root });
+  const base = '/akiramyassine';
+  const origin = 'https://issamrjb.github.io';
+  execFileSync(process.execPath, [join(astro, bin.astro ?? bin), 'build'], {
+    cwd: f.root,
+    env: { ...process.env, PAGES_ORIGIN: origin, PAGES_BASE_PATH: base },
+  });
+  const sitemap = await readFile(join(f.root, 'dist', 'sitemap-index.xml'), 'utf8');
+  assert.ok(sitemap.includes(origin + base + '/sitemap-0.xml'));
   for (const [lang, prefix] of [['fr', ''], ['en', 'en'], ['ar', 'ar']]) {
     const dist = join(f.root, 'dist', prefix);
     for (const [directory, id] of [['catalogue', first], ['realisations', second]]) {
       const page = await readFile(join(dist, directory, 'm-' + id, 'index.html'), 'utf8');
       assert.ok(page.includes('lang="' + lang + '" dir="' + (lang === 'ar' ? 'rtl' : 'ltr') + '"'));
-      assert.ok(page.includes('/media/' + id + '.webp'));
+      assert.ok(page.includes('src="' + base + '/media/' + id + '.webp"'));
+      assert.ok(page.includes('href="' + origin + base + '/ar/' + directory + '/m-' + id + '/"'));
       assert.ok(page.includes('wa.me/212620069078?text='));
       assert.ok(page.includes('hreflang="ar"'));
       assert.ok(page.includes(alt[lang]));

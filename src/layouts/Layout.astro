@@ -2,7 +2,7 @@
 import '@fontsource-variable/inter';
 import '@fontsource-variable/playfair-display';
 import '../styles/site.css';
-import { business, cityAddress, copy, locales, route, type Locale } from '../lib/content';
+import { asset, business, cityAddress, copy, locales, route, type Locale } from '../lib/content';
 
 interface Props { lang: Locale; path: string; title: string; description: string; image?: string; }
 const { lang, path, title, description, image = '/brand.webp' } = Astro.props;
@@ -28,21 +28,21 @@ const structuredData = {
     <title>{title} | {business.name}</title>
     <meta name="description" content={description} />
     <link rel="canonical" href={canonical} />
-    <link rel="icon" href="/mark.webp" type="image/webp" />
+    <link rel="icon" href={asset('mark.webp')} type="image/webp" />
     {locales.map(locale => <link rel="alternate" hreflang={locale} href={new URL(route(locale, path), Astro.site)} />)}
     <link rel="alternate" hreflang="x-default" href={new URL(route('fr', path), Astro.site)} />
     <meta property="og:type" content="website" />
     <meta property="og:title" content={title + ' | ' + business.name} />
     <meta property="og:description" content={description} />
     <meta property="og:url" content={canonical} />
-    <meta property="og:image" content={new URL(image, Astro.site)} />
+    <meta property="og:image" content={new URL(asset(image), Astro.site)} />
     <script type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, '\\u003c')} />
   </head>
   <body>
     <a class="skip" href="#main">{t.skip}</a>
     <header class="site-header">
       <div class="wrap header-inner">
-        <a class="brand" href={route(lang)}><img src="/mark.webp" width="42" height="28" alt="" /><bdi>{business.name}</bdi></a>
+        <a class="brand" href={route(lang)}><img src={asset('mark.webp')} width="42" height="28" alt="" /><bdi>{business.name}</bdi></a>
         <nav class="nav" aria-label={t.nav}>
           {nav.map(([label, section]) => <a href={route(lang, section)} aria-current={path === section ? 'page' : undefined} class:list={{ active: path === section || (section && path.startsWith(section + '/')) }}>{label}</a>)}
         </nav>
