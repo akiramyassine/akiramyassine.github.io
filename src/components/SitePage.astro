@@ -1,0 +1,85 @@
+---
+import Layout from '../layouts/Layout.astro';
+import { business, categories, cityAddress, copy, items, itemPath, listing, route, whatsapp, type Item, type Locale } from '../lib/content';
+
+interface Props { lang: Locale; path: string; item?: Item; category?: string; }
+const { lang, path, item, category } = Astro.props;
+const t = copy[lang];
+const portfolio = path.startsWith('realisations');
+const catalog = path.startsWith('catalogue');
+const section = portfolio ? 'realisations' : 'catalogue';
+const title = item?.translations[lang].title ?? (category ? categories[category][lang] : portfolio ? t.portfolio : catalog ? t.catalog : path ? t.contactTitle : t.hero);
+const description = item?.translations[lang].description ?? (portfolio ? t.portfolioIntro : catalog ? t.catalogIntro : t.intro);
+const entries = items.filter(entry => listing(entry.kind) === section && (!category || entry.category === category));
+const chat = whatsapp(item ? t.itemQuestion + ' « ' + title + ' » (' + item.id + ').' : t.question);
+---
+<Layout {lang} {path} {title} {description} image={item?.images[0].src}>
+  {!path ? <>
+    <section class="hero">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">{t.eyebrow}</p>
+          <h1>{t.hero}</h1>
+          <p class="lead">{t.intro}</p>
+          <div class="actions">
+            <a class="button primary" href={route(lang, 'catalogue')}>{t.browse} <span aria-hidden="true">↗</span></a>
+            <a class="button outline" href={chat}>{t.chat}</a>
+          </div>
+        </div>
+        <div class="brand-panel">
+          <img src="/brand.webp" width="800" height="616" alt={business.name + ' · ' + t.identity} fetchpriority="high" />
+        </div>
+      </div>
+    </section>
+    <section class="wrap section">
+      <h2>{t.categories}</h2>
+      <div class="category-grid">
+        {Object.entries(categories).map(([key, labels]) => <a class="category-card" href={route(lang, 'catalogue/categorie/' + key)}><span>{labels[lang]}</span><span aria-hidden="true">↗</span></a>)}
+      </div>
+    </section>
+  </> : item ? (
+    <section class="wrap section">
+      <a class="back" href={route(lang, section)}>{t.back} · {portfolio ? t.portfolio : t.catalog}</a>
+      <div class="detail">
+        <div class="gallery" aria-label={t.gallery}>
+          {item.images.map((photo, index) => <a href={photo.src}><img src={photo.src} width={photo.width} height={photo.height} loading={index === 0 ? 'eager' : 'lazy'} alt={photo.alt[lang]} /></a>)}
+        </div>
+        <div class="detail-copy">
+          <p class="eyebrow">{categories[item.category][lang]}</p>
+          <h1>{title}</h1>
+          <p class="lead">{description}</p>
+          <ul>{item.translations[lang].details.map(detail => <li>{detail}</li>)}</ul>
+          <a class="button primary" href={chat}>{t.chat}</a>
+        </div>
+      </div>
+    </section>
+  ) : catalog || portfolio ? (
+    <section class="wrap section listing">
+      <p class="eyebrow">{t.eyebrow}</p>
+      <h1>{title}</h1>
+      <p class="lead">{description}</p>
+      {catalog && <div class="filters">
+        <a href={route(lang, 'catalogue')} aria-current={!category ? 'page' : undefined}>{t.all}</a>
+        {Object.entries(categories).map(([key, labels]) => <a href={route(lang, 'catalogue/categorie/' + key)} aria-current={category === key ? 'page' : undefined}>{labels[lang]}</a>)}
+      </div>}
+      {entries.length > 0 ? <div class="cards">
+        {entries.map(entry => <a class="card" href={route(lang, itemPath(entry))}>
+          <img src={entry.images[0].src} width={entry.images[0].width} height={entry.images[0].height} alt={entry.images[0].alt[lang]} loading="lazy" />
+          <div><p>{categories[entry.category][lang]}</p><h2>{entry.translations[lang].title}</h2></div>
+        </a>)}
+      </div> : <p class="empty">{portfolio ? t.portfolioEmpty : t.empty}</p>}
+    </section>
+  ) : (
+    <section class="wrap section contact">
+      <div>
+        <p class="eyebrow">{t.location}</p>
+        <h1>{title}</h1>
+        <address><bdi>{business.street}<br />{cityAddress}</bdi></address>
+        <p><a href={'tel:' + business.phone}><bdi>{business.phoneLabel}</bdi></a></p>
+        <p>Facebook · <bdi>{business.facebook}</bdi></p>
+        <div class="actions"><a class="button primary" href={chat}>{t.chat}</a><a class="button outline" href={business.maps}>{t.map}</a></div>
+      </div>
+      <iframe src={business.embed} title={t.mapFrame} loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </section>
+  )}
+</Layout>

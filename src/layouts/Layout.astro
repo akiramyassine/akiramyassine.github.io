@@ -1,0 +1,63 @@
+---
+import '@fontsource-variable/inter';
+import '@fontsource-variable/playfair-display';
+import '../styles/site.css';
+import { business, cityAddress, copy, locales, route, type Locale } from '../lib/content';
+
+interface Props { lang: Locale; path: string; title: string; description: string; image?: string; }
+const { lang, path, title, description, image = '/brand.webp' } = Astro.props;
+const t = copy[lang];
+const canonical = new URL(route(lang, path), Astro.site);
+const nav = [[t.home, ''], [t.catalog, 'catalogue'], [t.portfolio, 'realisations'], [t.contact, 'contact']];
+const names = { fr: 'Français', ar: 'العربية', en: 'English' };
+const structuredData = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: business.name,
+  url: Astro.site,
+  telephone: business.phone,
+  hasMap: business.maps,
+  address: { '@type': 'PostalAddress', streetAddress: business.street, addressLocality: business.locality, postalCode: business.postalCode, addressCountry: business.countryCode },
+};
+---
+<!doctype html>
+<html lang={lang} dir={lang === 'ar' ? 'rtl' : 'ltr'}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title} | {business.name}</title>
+    <meta name="description" content={description} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/mark.webp" type="image/webp" />
+    {locales.map(locale => <link rel="alternate" hreflang={locale} href={new URL(route(locale, path), Astro.site)} />)}
+    <link rel="alternate" hreflang="x-default" href={new URL(route('fr', path), Astro.site)} />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content={title + ' | ' + business.name} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={new URL(image, Astro.site)} />
+    <script type="application/ld+json" set:html={JSON.stringify(structuredData).replace(/</g, '\\u003c')} />
+  </head>
+  <body>
+    <a class="skip" href="#main">{t.skip}</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href={route(lang)}><img src="/mark.webp" width="42" height="28" alt="" /><bdi>{business.name}</bdi></a>
+        <nav class="nav" aria-label={t.nav}>
+          {nav.map(([label, section]) => <a href={route(lang, section)} aria-current={path === section ? 'page' : undefined} class:list={{ active: path === section || (section && path.startsWith(section + '/')) }}>{label}</a>)}
+        </nav>
+        <nav class="languages" aria-label={t.languages}>
+          {locales.map(locale => <a href={route(locale, path)} lang={locale} hreflang={locale} aria-label={names[locale]} aria-current={lang === locale ? 'true' : undefined}>{locale.toUpperCase()}</a>)}
+        </nav>
+      </div>
+    </header>
+    <main id="main"><slot /></main>
+    <footer class="site-footer">
+      <div class="wrap footer-inner">
+        <div><bdi>{business.name}</bdi><small>{t.identity}</small></div>
+        <a href={business.maps}><bdi>{business.street} · {cityAddress}</bdi></a>
+        <a href={'tel:' + business.phone}><bdi>{business.phoneLabel}</bdi></a>
+      </div>
+    </footer>
+  </body>
+</html>

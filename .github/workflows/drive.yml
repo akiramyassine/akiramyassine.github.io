@@ -1,0 +1,92 @@
+name: Synchroniser les photos de Google Drive
+on:
+  schedule:
+    - cron: '25 3 * * *'
+  workflow_dispatch:
+    inputs:
+      decisions:
+        description: 'JSON complet de content/decisions.json, facultatif'
+        type: string
+        required: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: drive-sync-main
+
+jobs:
+  sync:
+    if: github.ref == 'refs/heads/main' && vars.DRIVE_SYNC_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: actions/setup-node@v6
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+      - name: Restaurer les points de reprise
+        uses: actions/cache/restore@v4
+        with:
+          path: |
+            .sync-cache/v1/analysis
+            .sync-cache/v1/files
+          key: drive-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: drive-v1-
+      - name: Appliquer les décisions soumises
+        if: inputs.decisions != ''
+        env:
+          DECISIONS_JSON: ${{ inputs.decisions }}
+        run: |
+          node --input-type=module -e "
+            import { writeChanged } from './scripts/files.mjs';
+            import { decisionsSchema } from './scripts/schema.mjs';
+            await writeChanged('content/decisions.json', decisionsSchema.parse(JSON.parse(process.env.DECISIONS_JSON)));
+          "
+      - name: Inventorier, analyser et préparer les fiches
+        run: npm run sync
+        env:
+          DRIVE_FOLDER_ID: ${{ secrets.DRIVE_FOLDER_ID }}
+          DRIVE_SERVICE_ACCOUNT_JSON: ${{ secrets.DRIVE_SERVICE_ACCOUNT_JSON }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_VISION_MODEL: ${{ vars.OPENAI_VISION_MODEL }}
+          SYNC_BATCH_SIZE: ${{ vars.SYNC_BATCH_SIZE }}
+      - name: Conserver le rapport de revue
+        if: always() && hashFiles('.sync-cache/v1/review.json') != ''
+        uses: actions/upload-artifact@v4
+        with:
+          name: revue-drive-${{ github.run_attempt }}
+          path: .sync-cache/v1/review.json
+          include-hidden-files: true
+          retention-days: 14
+      - name: Valider, versionner et déclencher Pages
+        if: success()
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git add -- content/decisions.json content/manifest.json content/items public/media
+          if git diff --cached --quiet; then
+            echo "Le contenu est à jour."
+            exit 0
+          fi
+          npm test
+          npm run check
+          npm run build
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Synchroniser le contenu depuis Google Drive'
+          git push origin HEAD:main
+          gh workflow run pages.yml --repo "$GITHUB_REPOSITORY" --ref main
+      - name: Conserver les points de reprise si la transaction échoue
+        if: failure()
+        uses: actions/cache/save@v4
+        with:
+          path: |
+            .sync-cache/v1/analysis
+            .sync-cache/v1/files
+          key: drive-v1-${{ github.run_id }}-${{ github.run_attempt }}

@@ -1,0 +1,20 @@
+---
+import SitePage from '../components/SitePage.astro';
+import { categories, itemPath, items, locales, route } from '../lib/content';
+import type { Item, Locale } from '../lib/content';
+
+export function getStaticPaths() {
+  const pages: { path: string; item?: Item; category?: string }[] = [
+    ...['', 'catalogue', 'realisations', 'contact'].map(path => ({ path })),
+    ...Object.keys(categories).map(category => ({ path: 'catalogue/categorie/' + category, category })),
+    ...items.map(item => ({ path: itemPath(item), item })),
+  ];
+  return locales.flatMap(lang => pages.map(page => ({
+    params: { page: route(lang, page.path).replace(/^\/|\/$/g, '') || undefined },
+    props: { lang, ...page },
+  })));
+}
+
+interface Props { lang: Locale; path: string; item?: Item; category?: string; }
+---
+<SitePage {...Astro.props} />
