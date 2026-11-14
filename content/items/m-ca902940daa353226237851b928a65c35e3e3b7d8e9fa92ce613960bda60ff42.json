@@ -1,0 +1,40 @@
+{
+  "id": "m-ca902940daa353226237851b928a65c35e3e3b7d8e9fa92ce613960bda60ff42",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé d’angle ivoire à dossier strié",
+      "description": "Deux assises lisses se rejoignent à angle droit.",
+      "details": [
+        "Des coutures verticales marquent le dossier, les accoudoirs et la base."
+      ]
+    },
+    "ar": {
+      "title": "أريكة زاوية عاجية بظهر مخطّط",
+      "description": "يلتقي مقعدان أملسان عند زاوية قائمة.",
+      "details": [
+        "وتظهر خطوط عمودية على الظهر ومساند الذراعين والقاعدة."
+      ]
+    },
+    "en": {
+      "title": "Ivory corner sofa with a channelled back",
+      "description": "Two smooth seats meet at a right angle.",
+      "details": [
+        "Vertical seams mark the back, arms and base."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/ca902940daa353226237851b928a65c35e3e3b7d8e9fa92ce613960bda60ff42.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Canapé d’angle ivoire à dossier strié",
+        "ar": "أريكة زاوية عاجية بظهر مخطّط",
+        "en": "Ivory corner sofa with a channelled back"
+      }
+    }
+  ]
+}

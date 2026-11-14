@@ -1,0 +1,40 @@
+{
+  "id": "m-7da9b55318c029c1b1d872039358c3b00d45d1de1a6550984984d30fbc41c335",
+  "kind": "portfolio",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Salon bleu pâle à coussins à motifs",
+      "description": "Des banquettes claires bordent la pièce.",
+      "details": [
+        "Les coussins mêlent motifs bleus et tons unis, au-dessus d’une base claire divisée en panneaux."
+      ]
+    },
+    "ar": {
+      "title": "صالون أزرق فاتح بوسائد مزخرفة",
+      "description": "تمتد مقاعد زرقاء فاتحة على جوانب الغرفة.",
+      "details": [
+        "تجمع الوسائد بين الزخارف الزرقاء والألوان السادة فوق قاعدة فاتحة مقسّمة إلى ألواح."
+      ]
+    },
+    "en": {
+      "title": "Pale blue seating with patterned cushions",
+      "description": "Light blue benches line the room.",
+      "details": [
+        "Patterned and solid cushions sit above a light panelled base."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/7da9b55318c029c1b1d872039358c3b00d45d1de1a6550984984d30fbc41c335.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Salon bleu pâle à coussins à motifs",
+        "ar": "صالون أزرق فاتح بوسائد مزخرفة",
+        "en": "Pale blue seating with patterned cushions"
+      }
+    }
+  ]
+}

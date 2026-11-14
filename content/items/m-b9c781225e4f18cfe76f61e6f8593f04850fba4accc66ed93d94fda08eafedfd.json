@@ -1,0 +1,40 @@
+{
+  "id": "m-b9c781225e4f18cfe76f61e6f8593f04850fba4accc66ed93d94fda08eafedfd",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé d’angle beige à coussins contrastés",
+      "description": "Un retour à coutures verticales rejoint une longue assise lisse.",
+      "details": [
+        "Les trois coussins à motifs noirs et blancs accompagnent les grands coussins clairs."
+      ]
+    },
+    "ar": {
+      "title": "أريكة زاوية بيج بوسائد متباينة",
+      "description": "يلتقي الجانب ذو الخياطة العمودية بمقعد طويل أملس.",
+      "details": [
+        "وترافق ثلاث وسائد مزخرفة بالأسود والأبيض الوسائد الكبيرة الفاتحة."
+      ]
+    },
+    "en": {
+      "title": "Beige corner sofa with contrasting cushions",
+      "description": "A channelled return meets a long smooth seat.",
+      "details": [
+        "Three black-and-white patterned cushions sit among the larger light cushions."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/b9c781225e4f18cfe76f61e6f8593f04850fba4accc66ed93d94fda08eafedfd.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Canapé d’angle beige à coussins contrastés",
+        "ar": "أريكة زاوية بيج بوسائد متباينة",
+        "en": "Beige corner sofa with contrasting cushions"
+      }
+    }
+  ]
+}

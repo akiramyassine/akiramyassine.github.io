@@ -1,0 +1,50 @@
+{
+  "id": "m-e0c064a0272631d6dd64b8bde3a4ca3b55269cc54977bc7e2b3bea6ed70f90f2",
+  "kind": "portfolio",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Salon beige en U avec rangements sous les assises",
+      "description": "Les assises beige entourent un tapis à motifs.",
+      "details": [
+        "La seconde vue montre les plateaux relevés et les espaces de rangement qu’ils recouvrent."
+      ]
+    },
+    "ar": {
+      "title": "صالون بيج على شكل U مع تخزين تحت المقاعد",
+      "description": "تحيط المقاعد البيج بسجادة مزخرفة.",
+      "details": [
+        "وتُظهر الصورة الثانية القواعد المرفوعة ومساحات التخزين تحتها."
+      ]
+    },
+    "en": {
+      "title": "Beige U-shaped seating with under-seat storage",
+      "description": "Beige seating surrounds a patterned rug.",
+      "details": [
+        "The second view shows the raised decks and storage spaces underneath."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/e0c064a0272631d6dd64b8bde3a4ca3b55269cc54977bc7e2b3bea6ed70f90f2.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Salon beige en U avec rangements sous les assises",
+        "ar": "صالون بيج على شكل U مع تخزين تحت المقاعد",
+        "en": "Beige U-shaped seating with under-seat storage"
+      }
+    },
+    {
+      "src": "/media/bbb2bf4f215a5ed24dd4ada7be4df4dc2471daee0a78a135ec4cb9601ba2206a.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Assises relevées avec compartiments visibles",
+        "ar": "المقاعد مرفوعة وأقسام التخزين ظاهرة",
+        "en": "Seats lifted to reveal the storage compartments"
+      }
+    }
+  ]
+}

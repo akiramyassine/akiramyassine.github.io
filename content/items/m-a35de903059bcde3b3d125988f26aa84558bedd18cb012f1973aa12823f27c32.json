@@ -1,0 +1,40 @@
+{
+  "id": "m-a35de903059bcde3b3d125988f26aa84558bedd18cb012f1973aa12823f27c32",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé d’angle clair avec tablette latérale",
+      "description": "Les assises sont divisées par des coutures droites.",
+      "details": [
+        "Les coussins sont bordés de foncé et une tablette brune termine un côté."
+      ]
+    },
+    "ar": {
+      "title": "أريكة زاوية فاتحة مع رف جانبي",
+      "description": "تقسّم خطوط الخياطة المستقيمة المقاعد.",
+      "details": [
+        "للوسائد حواف داكنة وفي أحد الطرفين رف بني."
+      ]
+    },
+    "en": {
+      "title": "Light corner sofa with side shelf",
+      "description": "Straight seams divide the seats.",
+      "details": [
+        "Dark piping outlines the cushions, and a brown shelf finishes one end."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/a35de903059bcde3b3d125988f26aa84558bedd18cb012f1973aa12823f27c32.webp",
+      "width": 1800,
+      "height": 1355,
+      "alt": {
+        "fr": "Canapé d’angle clair avec tablette latérale",
+        "ar": "أريكة زاوية فاتحة مع رف جانبي",
+        "en": "Light corner sofa with side shelf"
+      }
+    }
+  ]
+}

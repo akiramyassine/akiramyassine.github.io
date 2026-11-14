@@ -1,0 +1,40 @@
+{
+  "id": "m-f6872e8d86756022147c21d7f4cd6d713090487db562b3e2aa18e76506dce349",
+  "kind": "catalogue",
+  "category": "lits",
+  "translations": {
+    "fr": {
+      "title": "Lits coffres violets à têtes capitonnées",
+      "description": "Les cadres violets sont alignés côte à côte.",
+      "details": [
+        "Un plateau relevé montre le coffre et les têtes de lit présentent un capitonnage quadrillé."
+      ]
+    },
+    "ar": {
+      "title": "أسرّة تخزين بنفسجية بألواح رأس مبطنة",
+      "description": "تصطف الإطارات البنفسجية جنبًا إلى جنب.",
+      "details": [
+        "وتكشف قاعدة مرفوعة عن صندوق التخزين، وتظهر على ألواح الرأس مربعات مبطنة."
+      ]
+    },
+    "en": {
+      "title": "Purple lift-up beds with tufted headboards",
+      "description": "Purple frames stand side by side.",
+      "details": [
+        "A raised deck shows the storage compartment, and the headboards have grid tufting."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/f6872e8d86756022147c21d7f4cd6d713090487db562b3e2aa18e76506dce349.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Lits coffres violets à têtes capitonnées",
+        "ar": "أسرّة تخزين بنفسجية بألواح رأس مبطنة",
+        "en": "Purple lift-up beds with tufted headboards"
+      }
+    }
+  ]
+}

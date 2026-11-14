@@ -120,6 +120,23 @@ test('signale les rapprochements visuels sans fusionner les fiches', () => {
   }, categories), /référence/);
 });
 
+test('conserve une photo archivée après retrait de son original de Drive', async t => {
+  const f = await fixture(t);
+  const id = await f.add('archive', 'red', true);
+  await f.sync();
+  await f.decide({}, { [id]: 'catalogue' });
+  await f.sync();
+  const path = join(f.root, 'content', 'manifest.json');
+  const manifest = JSON.parse(await readFile(path, 'utf8'));
+  await writeChanged(path, { ...manifest, archived: [id] });
+  f.sources.clear();
+  const result = await f.sync();
+  assert.equal(result.published, 1);
+  assert.equal(result.downloads, 0);
+  await validate(f.root);
+  assert.equal((await f.sync()).writes, 0);
+});
+
 test('compile les catégories dynamiques et les deux types de fiches avec leurs trois variantes', async t => {
   // The temporary project inherits the installed dependencies from the workspace.
   const cache = resolve('.sync-cache');

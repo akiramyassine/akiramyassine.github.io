@@ -85,8 +85,8 @@ export async function synchronize({ root, drive, analyze, batchSize = 6, log = c
   }
   await flush();
 
-  const plan = planPublication([...sourceByHash.keys()], photos, decisions, categories);
-  const activePhotos = new Set(sourceByHash.keys());
+  const activePhotos = new Set([...sourceByHash.keys(), ...(manifest.archived ?? [])]);
+  const plan = planPublication([...activePhotos], photos, decisions, categories);
   await writeChanged(join(cache, 'review.json'), {
     drafts: plan.drafts,
     rejected: plan.rejected,
@@ -104,7 +104,9 @@ export async function synchronize({ root, drive, analyze, batchSize = 6, log = c
       const existing = await readOptional(publishedMedia(id));
       let data = existing ?? await readOptional(mediaCache(id));
       if (!data) {
-        const bytes = await download(sourceByHash.get(id));
+        const source = sourceByHash.get(id);
+        if (!source) throw new Error('Restaurer le WebP de la photo archivée : ' + id);
+        const bytes = await download(source);
         if (hash(bytes) !== id) throw new Error('Empreinte Drive modifiée avant publication.');
         data = (await optimize(bytes)).data;
         await writeChanged(mediaCache(id), data);
@@ -140,6 +142,7 @@ export async function synchronize({ root, drive, analyze, batchSize = 6, log = c
     }
   }
   const updated = { version: 1, files: sorted(files), photos: sorted(Object.entries(photos)) };
+  if (manifest.archived) updated.archived = [...new Set(manifest.archived)].sort();
   if (await writeChanged(join(root, 'content', 'manifest.json'), updated)) counters.writes++;
   counters.published = items.size;
   log('Synchronisation terminée', counters);

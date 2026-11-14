@@ -49,5 +49,6 @@ export const fileSchema = z.object({
 export const manifestSchema = z.object({
   version: z.literal(1),
   files: z.record(digest, fileSchema),
+  archived: z.array(digest).optional(),
   photos: z.record(digest, photoSchema),
 }).strict();

@@ -1,0 +1,40 @@
+{
+  "id": "m-23ab953b23a8b34b6f82a64c5f9e982915c96d7e342a4c12c9a6bbdd49878457",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé d’angle gris clair avec pouf rond",
+      "description": "Les accoudoirs présentent des coutures verticales et une bande dorée longe le bas.",
+      "details": [
+        "Un pouf rond est placé à l’extrémité gauche sur la photo."
+      ]
+    },
+    "ar": {
+      "title": "أريكة زاوية رمادية فاتحة مع مقعد دائري",
+      "description": "تظهر خياطة عمودية على مسندي الذراع ويحيط شريط ذهبي اللون بأسفل القاعدة.",
+      "details": [
+        "ويظهر مقعد دائري إلى يسار الصورة."
+      ]
+    },
+    "en": {
+      "title": "Light grey corner sofa with round ottoman",
+      "description": "Vertical seams mark the arms and a gold-tone band runs along the base.",
+      "details": [
+        "A round ottoman sits at the left in the photograph."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/23ab953b23a8b34b6f82a64c5f9e982915c96d7e342a4c12c9a6bbdd49878457.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Canapé d’angle gris clair avec pouf rond",
+        "ar": "أريكة زاوية رمادية فاتحة مع مقعد دائري",
+        "en": "Light grey corner sofa with round ottoman"
+      }
+    }
+  ]
+}

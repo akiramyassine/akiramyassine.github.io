@@ -1,0 +1,50 @@
+{
+  "id": "m-2e541ca20a6fc1cb5c9fb3a327cf65c6e6c4bfd4c3516eb8f4d283b0c1daf64b",
+  "kind": "catalogue",
+  "category": "lits",
+  "translations": {
+    "fr": {
+      "title": "Lit taupe à tête de lit graphique",
+      "description": "Une ligne dorée en zigzag traverse le dossier rembourré.",
+      "details": [
+        "Les vues montrent le cadre à deux niveaux et ses petits pieds dorés."
+      ]
+    },
+    "ar": {
+      "title": "سرير رمادي بني بلوح رأس هندسي",
+      "description": "يعبر خط ذهبي متعرّج لوح الرأس المبطن.",
+      "details": [
+        "وتُظهر الصور إطارًا بطبقتين وأرجلًا صغيرة ذهبية اللون."
+      ]
+    },
+    "en": {
+      "title": "Taupe bed with a graphic headboard",
+      "description": "A gold-tone zigzag crosses the padded headboard.",
+      "details": [
+        "The views show the two-tier frame and small gold-tone feet."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/2e541ca20a6fc1cb5c9fb3a327cf65c6e6c4bfd4c3516eb8f4d283b0c1daf64b.webp",
+      "width": 1204,
+      "height": 1600,
+      "alt": {
+        "fr": "Lit taupe à tête de lit graphique",
+        "ar": "سرير رمادي بني بلوح رأس هندسي",
+        "en": "Taupe bed with a graphic headboard"
+      }
+    },
+    {
+      "src": "/media/4fa40e5e550ebfe1527e06681bebcb815529c7123452442d9df4564bd1849df9.webp",
+      "width": 1204,
+      "height": 1600,
+      "alt": {
+        "fr": "Vue de face du lit et du motif en zigzag",
+        "ar": "منظر أمامي للسرير والخط المتعرّج",
+        "en": "Front view of the bed and zigzag detail"
+      }
+    }
+  ]
+}

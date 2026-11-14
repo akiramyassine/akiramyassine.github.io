@@ -1,0 +1,40 @@
+{
+  "id": "m-170a5c6415b18f3f4d1f10f62cc399d17a563791be3045f7667cd8fe9578e123",
+  "kind": "portfolio",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Salon brun en U avec tablettes latérales",
+      "description": "Les assises longent trois côtés du salon.",
+      "details": [
+        "Des coussins clairs et des tablettes brunes ponctuent l’ensemble devant un sol marbré."
+      ]
+    },
+    "ar": {
+      "title": "صالون بني على شكل U مع رفوف جانبية",
+      "description": "تمتد المقاعد على ثلاثة جوانب من الصالون.",
+      "details": [
+        "وتظهر وسائد فاتحة ورفوف بنية أمام أرضية ذات عروق رخامية."
+      ]
+    },
+    "en": {
+      "title": "Brown U-shaped seating with side shelves",
+      "description": "Seating runs along three sides of the room.",
+      "details": [
+        "Light cushions and brown shelves punctuate the arrangement above a marble-patterned floor."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/170a5c6415b18f3f4d1f10f62cc399d17a563791be3045f7667cd8fe9578e123.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Salon brun en U avec tablettes latérales",
+        "ar": "صالون بني على شكل U مع رفوف جانبية",
+        "en": "Brown U-shaped seating with side shelves"
+      }
+    }
+  ]
+}

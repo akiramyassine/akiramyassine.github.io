@@ -1,0 +1,40 @@
+{
+  "id": "m-a3054ac200f852aee25bbc29c84825570a51ff37dd19ce9add403675389b8b08",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé d’angle brun à coussins ocre",
+      "description": "Deux longues assises se rejoignent en angle.",
+      "details": [
+        "Des coussins ocre soulignent le revêtement brun et une bande claire longe la base."
+      ]
+    },
+    "ar": {
+      "title": "أريكة زاوية بنية بوسائد بلون المغرة",
+      "description": "يلتقي مقعدان طويلان عند زاوية.",
+      "details": [
+        "وتبرز وسائد بلون المغرة فوق الكسوة البنية، مع شريط فاتح على طول القاعدة."
+      ]
+    },
+    "en": {
+      "title": "Brown corner sofa with ochre cushions",
+      "description": "Two long seats meet at a corner.",
+      "details": [
+        "Ochre cushions accent the brown upholstery, with a light band along the base."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/a3054ac200f852aee25bbc29c84825570a51ff37dd19ce9add403675389b8b08.webp",
+      "width": 1600,
+      "height": 900,
+      "alt": {
+        "fr": "Canapé d’angle brun à coussins ocre",
+        "ar": "أريكة زاوية بنية بوسائد بلون المغرة",
+        "en": "Brown corner sofa with ochre cushions"
+      }
+    }
+  ]
+}

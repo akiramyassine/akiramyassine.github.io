@@ -1,0 +1,40 @@
+{
+  "id": "m-842bcbe5bbe48606c2370feac75634b6942d751dce63d2d57a680f43dc4f4ce6",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé en U vert olive",
+      "description": "Deux retours encadrent une longue assise.",
+      "details": [
+        "Des coutures verticales rythment les accoudoirs et les façades."
+      ]
+    },
+    "ar": {
+      "title": "أريكة خضراء زيتونية على شكل U",
+      "description": "تحيط قطعتان جانبيتان بمقعد طويل.",
+      "details": [
+        "وتظهر خياطة عمودية على مسندي الذراع والواجهات."
+      ]
+    },
+    "en": {
+      "title": "Olive green U-shaped sofa",
+      "description": "Two returns frame a long seat.",
+      "details": [
+        "Vertical seams run along the arms and front panels."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/842bcbe5bbe48606c2370feac75634b6942d751dce63d2d57a680f43dc4f4ce6.webp",
+      "width": 1800,
+      "height": 1355,
+      "alt": {
+        "fr": "Canapé en U vert olive",
+        "ar": "أريكة خضراء زيتونية على شكل U",
+        "en": "Olive green U-shaped sofa"
+      }
+    }
+  ]
+}

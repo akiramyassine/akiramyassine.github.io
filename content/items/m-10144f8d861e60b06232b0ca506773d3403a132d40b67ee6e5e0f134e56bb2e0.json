@@ -1,0 +1,40 @@
+{
+  "id": "m-10144f8d861e60b06232b0ca506773d3403a132d40b67ee6e5e0f134e56bb2e0",
+  "kind": "portfolio",
+  "category": "lits",
+  "translations": {
+    "fr": {
+      "title": "Lit taupe à tête de lit murale",
+      "description": "Une tête de lit à panneaux s’étend au-delà du couchage, entre deux chevets.",
+      "details": [
+        "Des lignes dorées ponctuent les panneaux et le pied présente des cannelures verticales."
+      ]
+    },
+    "ar": {
+      "title": "سرير بلون رمادي مائل للبني ولوح رأس عريض",
+      "description": "يمتد لوح الرأس المبطن إلى ما بعد جانبي السرير بين منضدتين.",
+      "details": [
+        "تتخلله خطوط ذهبية ويظهر عند القدم تبطين عمودي."
+      ]
+    },
+    "en": {
+      "title": "Taupe bed with a wide headboard",
+      "description": "A panelled headboard extends past the bed between two bedside tables.",
+      "details": [
+        "Gold-tone lines accent the panels, and the foot is vertically channelled."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/10144f8d861e60b06232b0ca506773d3403a132d40b67ee6e5e0f134e56bb2e0.webp",
+      "width": 720,
+      "height": 1178,
+      "alt": {
+        "fr": "Lit taupe à tête de lit murale",
+        "ar": "سرير بلون رمادي مائل للبني ولوح رأس عريض",
+        "en": "Taupe bed with a wide headboard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "m-154acb7d4635ca552e70cb5901091c5ebecf56394b6b3c83cbf2dac9e6a58ecd",
+  "kind": "catalogue",
+  "category": "tetes-de-lit",
+  "translations": {
+    "fr": {
+      "title": "Tête de lit beige à motif géométrique",
+      "description": "Des panneaux rembourrés irréguliers composent un motif en relief, au-dessus d’une base divisée en deux.",
+      "details": []
+    },
+    "ar": {
+      "title": "لوح رأس سرير بيج بزخرفة هندسية",
+      "description": "تشكّل ألواح مبطنة غير منتظمة نقشًا بارزًا فوق قاعدة مقسّمة إلى جزأين.",
+      "details": []
+    },
+    "en": {
+      "title": "Beige geometric headboard",
+      "description": "Irregular padded panels form a raised pattern above a two-part base.",
+      "details": []
+    }
+  },
+  "images": [
+    {
+      "src": "/media/154acb7d4635ca552e70cb5901091c5ebecf56394b6b3c83cbf2dac9e6a58ecd.webp",
+      "width": 1355,
+      "height": 1800,
+      "alt": {
+        "fr": "Tête de lit beige à motif géométrique",
+        "ar": "لوح رأس سرير بيج بزخرفة هندسية",
+        "en": "Beige geometric headboard"
+      }
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "id": "m-c9d88866e54ea32a45baf523e1605062c37947553264ad921f583c06c7967e04",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé d’angle écru à grands coussins",
+      "description": "Les grands coussins couvrent les deux côtés du dossier.",
+      "details": [
+        "Un retour à coutures verticales contraste avec l’assise lisse de l’autre côté."
+      ]
+    },
+    "ar": {
+      "title": "أريكة زاوية بلون عاجي بوسائد كبيرة",
+      "description": "تغطي الوسائد الكبيرة جانبي الظهر.",
+      "details": [
+        "ويقابل الجانب ذو الخطوط العمودية مقعد أملس في الجهة الأخرى."
+      ]
+    },
+    "en": {
+      "title": "Ecru corner sofa with large cushions",
+      "description": "Large cushions line both sides of the back.",
+      "details": [
+        "A channelled return contrasts with the smooth seat on the other side."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/c9d88866e54ea32a45baf523e1605062c37947553264ad921f583c06c7967e04.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Canapé d’angle écru à grands coussins",
+        "ar": "أريكة زاوية بلون عاجي بوسائد كبيرة",
+        "en": "Ecru corner sofa with large cushions"
+      }
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "id": "m-8430526246859c8e1347ff0b3c2e37911d0555598319e22ada6e7c691a319478",
+  "kind": "catalogue",
+  "category": "lits",
+  "translations": {
+    "fr": {
+      "title": "Lit ivoire à cannelures verticales",
+      "description": "Un haut dossier et un cadre rembourré reprennent les mêmes lignes verticales.",
+      "details": [
+        "Les vues montrent le cadre seul et avec un matelas."
+      ]
+    },
+    "ar": {
+      "title": "سرير عاجي بتبطين عمودي",
+      "description": "تتكرر الخطوط العمودية على لوح الرأس العالي والإطار المبطن.",
+      "details": [
+        "وتظهر الصور الإطار وحده ومع مرتبة."
+      ]
+    },
+    "en": {
+      "title": "Ivory bed with vertical channels",
+      "description": "A tall headboard and padded frame share the same vertical lines.",
+      "details": [
+        "The views show the frame both bare and with a mattress."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/8430526246859c8e1347ff0b3c2e37911d0555598319e22ada6e7c691a319478.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Lit ivoire à cannelures verticales",
+        "ar": "سرير عاجي بتبطين عمودي",
+        "en": "Ivory bed with vertical channels"
+      }
+    },
+    {
+      "src": "/media/4f63a57bfb5a6cfbd7a6cb55f909eed792c4854d24e7fd7ec442006a5bb60c6e.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Vue de face avec matelas",
+        "ar": "منظر أمامي مع مرتبة",
+        "en": "Front view with a mattress"
+      }
+    },
+    {
+      "src": "/media/93bd5752e0ccadef656b64f5ef6551b5224633f0c68963ff173b442def896b9f.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Cadre vu de face sans matelas",
+        "ar": "منظر أمامي للإطار دون مرتبة",
+        "en": "Front view of the frame without a mattress"
+      }
+    }
+  ]
+}

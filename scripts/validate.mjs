@@ -39,7 +39,7 @@ export async function validate(root = process.cwd()) {
   for (const lang of [ar, en]) {
     if (Object.keys(lang).sort().join() !== Object.keys(fr).sort().join()) throw new Error('Clés de traduction incohérentes.');
   }
-  const active = Object.values(manifest.files).map(file => file.hash);
+  const active = [...Object.values(manifest.files).map(file => file.hash), ...(manifest.archived ?? [])];
   if (active.some(id => !manifest.photos[id])) throw new Error('Analyse manquante dans le manifeste.');
   const { published } = planPublication(active, manifest.photos, decisions, categories);
   const expectedGroups = new Map(published.map(group => ['m-' + group.id, group]));

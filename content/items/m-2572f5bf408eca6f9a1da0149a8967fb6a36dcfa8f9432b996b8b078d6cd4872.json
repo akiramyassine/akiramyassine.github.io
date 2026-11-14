@@ -1,0 +1,52 @@
+{
+  "id": "m-2572f5bf408eca6f9a1da0149a8967fb6a36dcfa8f9432b996b8b078d6cd4872",
+  "kind": "portfolio",
+  "category": "lits",
+  "translations": {
+    "fr": {
+      "title": "Lit coffre blanc à panneaux décalés",
+      "description": "Le lit est présenté dans une chambre avec chevets.",
+      "details": [
+        "Le plateau relevé laisse voir un coffre compartimenté.",
+        "La tête de lit alterne panneaux clairs et accents dorés."
+      ]
+    },
+    "ar": {
+      "title": "سرير تخزين أبيض بألواح متداخلة",
+      "description": "يظهر السرير في غرفة مع طاولتين جانبيتين.",
+      "details": [
+        "تكشف القاعدة المرفوعة عن صندوق تخزين مقسّم.",
+        "ويتناوب على لوح الرأس اللون الفاتح واللمسات الذهبية."
+      ]
+    },
+    "en": {
+      "title": "White lift-up storage bed",
+      "description": "Shown in a bedroom with bedside tables.",
+      "details": [
+        "The raised deck reveals divided storage, and the headboard combines light panels with gold-tone accents."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/2572f5bf408eca6f9a1da0149a8967fb6a36dcfa8f9432b996b8b078d6cd4872.webp",
+      "width": 1800,
+      "height": 1355,
+      "alt": {
+        "fr": "Lit coffre blanc à panneaux décalés",
+        "ar": "سرير تخزين أبيض بألواح متداخلة",
+        "en": "White lift-up storage bed"
+      }
+    },
+    {
+      "src": "/media/84a098bfb3e63905a6eca21b1202bbc2b80da682d87fe9b108e303bb78161a45.webp",
+      "width": 1800,
+      "height": 1355,
+      "alt": {
+        "fr": "Plateau du lit relevé et compartiments du coffre visibles",
+        "ar": "قاعدة السرير مرفوعة وأقسام التخزين ظاهرة",
+        "en": "Bed deck raised to show the divided storage"
+      }
+    }
+  ]
+}

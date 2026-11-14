@@ -1,0 +1,60 @@
+{
+  "id": "m-17d274d6ebb07c2730182ac885e3326b53041e712dbe843c08c503afa9121abc",
+  "kind": "catalogue",
+  "category": "lits",
+  "translations": {
+    "fr": {
+      "title": "Lit blanc à tête de lit à damier",
+      "description": "Des panneaux blancs décalés alternent avec des bandes dorées sur la tête de lit.",
+      "details": [
+        "Le pied à cannelures est montré monté et séparément."
+      ]
+    },
+    "ar": {
+      "title": "سرير أبيض بلوح رأس بتوزيع متناوب",
+      "description": "تتناوب الألواح البيضاء المتداخلة مع شرائط ذهبية اللون على لوح الرأس.",
+      "details": [
+        "ويظهر اللوح المضلّع عند القدم مركّبًا ومنفصلًا."
+      ]
+    },
+    "en": {
+      "title": "White bed with a stepped panel headboard",
+      "description": "Offset white panels alternate with gold-tone strips on the headboard.",
+      "details": [
+        "The channelled footboard is shown assembled and separately."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/17d274d6ebb07c2730182ac885e3326b53041e712dbe843c08c503afa9121abc.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Lit blanc à tête de lit à damier",
+        "ar": "سرير أبيض بلوح رأس بتوزيع متناوب",
+        "en": "White bed with a stepped panel headboard"
+      }
+    },
+    {
+      "src": "/media/5756837709672f4ca835a566b04a5658b22b50a882473f9bf56a871c9cdd5209.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Tête de lit seule avec détails des panneaux blancs",
+        "ar": "لوح الرأس وحده مع تفاصيل الألواح البيضاء",
+        "en": "Headboard alone showing the white panel details"
+      }
+    },
+    {
+      "src": "/media/94b403ece453af1fa661c5bfd4f4636dc2ecb5f0541897fba8e4963e47cae5b9.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Tête de lit et panneau de pied présentés séparément",
+        "ar": "لوح الرأس ولوح القدم معروضان منفصلين",
+        "en": "Headboard and footboard shown separately"
+      }
+    }
+  ]
+}

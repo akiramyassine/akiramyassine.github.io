@@ -1,0 +1,40 @@
+{
+  "id": "m-622fcbd82dc6a181fd034486e7855e87b2119c9d07bad1bc5aab599acee3f4e4",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé d’angle bleu à coutures verticales",
+      "description": "Le revêtement bleu est marqué de coutures régulières sur le dossier et les assises.",
+      "details": [
+        "Des pieds fins dorés soulèvent la base."
+      ]
+    },
+    "ar": {
+      "title": "أريكة زاوية زرقاء بخياطة عمودية",
+      "description": "تظهر خطوط خياطة منتظمة على الظهر والمقاعد الزرقاء.",
+      "details": [
+        "وترفع أرجل رفيعة ذهبية اللون القاعدة."
+      ]
+    },
+    "en": {
+      "title": "Blue corner sofa with vertical seams",
+      "description": "Regular seams run across the blue back and seats.",
+      "details": [
+        "Slim gold-tone legs lift the base."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/622fcbd82dc6a181fd034486e7855e87b2119c9d07bad1bc5aab599acee3f4e4.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Canapé d’angle bleu à coutures verticales",
+        "ar": "أريكة زاوية زرقاء بخياطة عمودية",
+        "en": "Blue corner sofa with vertical seams"
+      }
+    }
+  ]
+}

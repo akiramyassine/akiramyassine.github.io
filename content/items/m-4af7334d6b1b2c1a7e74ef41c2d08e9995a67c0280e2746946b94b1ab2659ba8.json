@@ -1,0 +1,50 @@
+{
+  "id": "m-4af7334d6b1b2c1a7e74ef41c2d08e9995a67c0280e2746946b94b1ab2659ba8",
+  "kind": "portfolio",
+  "category": "lits",
+  "translations": {
+    "fr": {
+      "title": "Deux lits taupe avec rangement relevable",
+      "description": "Deux couchages sont placés devant une tête de lit commune, composée de panneaux arrondis.",
+      "details": [
+        "Une vue montre le rangement sous un plateau relevé."
+      ]
+    },
+    "ar": {
+      "title": "سريران بلون رمادي بني مع تخزين قابل للرفع",
+      "description": "يوجد سريران أمام لوح رأس مشترك من ألواح مستديرة الحواف.",
+      "details": [
+        "وتُظهر إحدى الصور التخزين تحت القاعدة المرفوعة."
+      ]
+    },
+    "en": {
+      "title": "Pair of taupe beds with lift-up storage",
+      "description": "Two beds sit in front of a shared headboard made of rounded panels.",
+      "details": [
+        "One photograph shows storage beneath a raised deck."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/4af7334d6b1b2c1a7e74ef41c2d08e9995a67c0280e2746946b94b1ab2659ba8.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Deux lits taupe avec rangement relevable",
+        "ar": "سريران بلون رمادي بني مع تخزين قابل للرفع",
+        "en": "Pair of taupe beds with lift-up storage"
+      }
+    },
+    {
+      "src": "/media/63c47ccb711549ecb65a0da2d30f7ae93e7f8356f1da8d106a1afd2bb940be14.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Les deux couchages avec leurs plateaux fermés",
+        "ar": "السريران وقاعدتاهما مغلقتان",
+        "en": "Both beds with their decks closed"
+      }
+    }
+  ]
+}

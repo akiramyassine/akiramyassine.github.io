@@ -1,5 +1,1406 @@
 {
   "version": 1,
   "files": {},
-  "photos": {}
+  "photos": {
+    "024f91c367b9790ea58df3bec494950b4eb4110927c8f6ff7e32fe8ec57ddeda": {
+      "visual": "f9baba87fb3fbf7f",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Ensemble de banquettes bleu argenté",
+            "description": "Les banquettes à coussins à motifs sont disposées autour d’un espace central.",
+            "details": [
+              "La photo montre également les dossiers extérieurs clairs."
+            ]
+          },
+          "ar": {
+            "title": "طقم مقاعد باللون الأزرق الفضي",
+            "description": "تنتظم المقاعد ذات الوسائد المزخرفة حول مساحة وسطية.",
+            "details": [
+              "وتظهر في الصورة أيضًا الظهور الخارجية الفاتحة."
+            ]
+          },
+          "en": {
+            "title": "Silver-blue bench seating set",
+            "description": "Patterned cushions line benches arranged around an open centre.",
+            "details": [
+              "The photograph also shows the light outer backs."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Ensemble de banquettes bleu argenté",
+          "ar": "طقم مقاعد باللون الأزرق الفضي",
+          "en": "Silver-blue bench seating set"
+        }
+      }
+    },
+    "08af004dc5945e603745145d68aca07b569ab48371418c08d86cc60c9da64633": {
+      "visual": "21b5b6b6986683b3",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé d’angle taupe à assise quadrillée",
+            "description": "Les coutures forment un quadrillage sur les assises.",
+            "details": [
+              "Des coussins vert foncé et terracotta accompagnent les accoudoirs droits."
+            ]
+          },
+          "ar": {
+            "title": "أريكة زاوية رمادية بنية بمقاعد مربّعة",
+            "description": "تشكّل الخياطة شبكة مربعات على المقاعد.",
+            "details": [
+              "وتظهر وسائد خضراء داكنة وأخرى بلون الطين إلى جانب المساند المستقيمة."
+            ]
+          },
+          "en": {
+            "title": "Taupe corner sofa with grid stitching",
+            "description": "Stitching forms a grid across the seats.",
+            "details": [
+              "Dark green and terracotta cushions sit beside the straight arms."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé d’angle taupe à assise quadrillée",
+          "ar": "أريكة زاوية رمادية بنية بمقاعد مربّعة",
+          "en": "Taupe corner sofa with grid stitching"
+        }
+      }
+    },
+    "10144f8d861e60b06232b0ca506773d3403a132d40b67ee6e5e0f134e56bb2e0": {
+      "visual": "090f9fd35d38e14b",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit taupe à tête de lit murale",
+            "description": "Une tête de lit à panneaux s’étend au-delà du couchage, entre deux chevets.",
+            "details": [
+              "Des lignes dorées ponctuent les panneaux et le pied présente des cannelures verticales."
+            ]
+          },
+          "ar": {
+            "title": "سرير بلون رمادي مائل للبني ولوح رأس عريض",
+            "description": "يمتد لوح الرأس المبطن إلى ما بعد جانبي السرير بين منضدتين.",
+            "details": [
+              "تتخلله خطوط ذهبية ويظهر عند القدم تبطين عمودي."
+            ]
+          },
+          "en": {
+            "title": "Taupe bed with a wide headboard",
+            "description": "A panelled headboard extends past the bed between two bedside tables.",
+            "details": [
+              "Gold-tone lines accent the panels, and the foot is vertically channelled."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Lit taupe à tête de lit murale",
+          "ar": "سرير بلون رمادي مائل للبني ولوح رأس عريض",
+          "en": "Taupe bed with a wide headboard"
+        }
+      }
+    },
+    "154acb7d4635ca552e70cb5901091c5ebecf56394b6b3c83cbf2dac9e6a58ecd": {
+      "visual": "07879327939322aa",
+      "analysis": {
+        "category": "tetes-de-lit",
+        "translations": {
+          "fr": {
+            "title": "Tête de lit beige à motif géométrique",
+            "description": "Des panneaux rembourrés irréguliers composent un motif en relief, au-dessus d’une base divisée en deux.",
+            "details": []
+          },
+          "ar": {
+            "title": "لوح رأس سرير بيج بزخرفة هندسية",
+            "description": "تشكّل ألواح مبطنة غير منتظمة نقشًا بارزًا فوق قاعدة مقسّمة إلى جزأين.",
+            "details": []
+          },
+          "en": {
+            "title": "Beige geometric headboard",
+            "description": "Irregular padded panels form a raised pattern above a two-part base.",
+            "details": []
+          }
+        },
+        "alt": {
+          "fr": "Tête de lit beige à motif géométrique",
+          "ar": "لوح رأس سرير بيج بزخرفة هندسية",
+          "en": "Beige geometric headboard"
+        }
+      }
+    },
+    "170a5c6415b18f3f4d1f10f62cc399d17a563791be3045f7667cd8fe9578e123": {
+      "visual": "0f0ff4919fcdcd0e",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Salon brun en U avec tablettes latérales",
+            "description": "Les assises longent trois côtés du salon.",
+            "details": [
+              "Des coussins clairs et des tablettes brunes ponctuent l’ensemble devant un sol marbré."
+            ]
+          },
+          "ar": {
+            "title": "صالون بني على شكل U مع رفوف جانبية",
+            "description": "تمتد المقاعد على ثلاثة جوانب من الصالون.",
+            "details": [
+              "وتظهر وسائد فاتحة ورفوف بنية أمام أرضية ذات عروق رخامية."
+            ]
+          },
+          "en": {
+            "title": "Brown U-shaped seating with side shelves",
+            "description": "Seating runs along three sides of the room.",
+            "details": [
+              "Light cushions and brown shelves punctuate the arrangement above a marble-patterned floor."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Salon brun en U avec tablettes latérales",
+          "ar": "صالون بني على شكل U مع رفوف جانبية",
+          "en": "Brown U-shaped seating with side shelves"
+        }
+      }
+    },
+    "17d274d6ebb07c2730182ac885e3326b53041e712dbe843c08c503afa9121abc": {
+      "visual": "8b8bbb1f039ba36f",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit blanc à tête de lit à damier",
+            "description": "Des panneaux blancs décalés alternent avec des bandes dorées sur la tête de lit.",
+            "details": [
+              "Le pied à cannelures est montré monté et séparément."
+            ]
+          },
+          "ar": {
+            "title": "سرير أبيض بلوح رأس بتوزيع متناوب",
+            "description": "تتناوب الألواح البيضاء المتداخلة مع شرائط ذهبية اللون على لوح الرأس.",
+            "details": [
+              "ويظهر اللوح المضلّع عند القدم مركّبًا ومنفصلًا."
+            ]
+          },
+          "en": {
+            "title": "White bed with a stepped panel headboard",
+            "description": "Offset white panels alternate with gold-tone strips on the headboard.",
+            "details": [
+              "The channelled footboard is shown assembled and separately."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Lit blanc à tête de lit à damier",
+          "ar": "سرير أبيض بلوح رأس بتوزيع متناوب",
+          "en": "White bed with a stepped panel headboard"
+        }
+      }
+    },
+    "23ab953b23a8b34b6f82a64c5f9e982915c96d7e342a4c12c9a6bbdd49878457": {
+      "visual": "c647484d19672509",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé d’angle gris clair avec pouf rond",
+            "description": "Les accoudoirs présentent des coutures verticales et une bande dorée longe le bas.",
+            "details": [
+              "Un pouf rond est placé à l’extrémité gauche sur la photo."
+            ]
+          },
+          "ar": {
+            "title": "أريكة زاوية رمادية فاتحة مع مقعد دائري",
+            "description": "تظهر خياطة عمودية على مسندي الذراع ويحيط شريط ذهبي اللون بأسفل القاعدة.",
+            "details": [
+              "ويظهر مقعد دائري إلى يسار الصورة."
+            ]
+          },
+          "en": {
+            "title": "Light grey corner sofa with round ottoman",
+            "description": "Vertical seams mark the arms and a gold-tone band runs along the base.",
+            "details": [
+              "A round ottoman sits at the left in the photograph."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé d’angle gris clair avec pouf rond",
+          "ar": "أريكة زاوية رمادية فاتحة مع مقعد دائري",
+          "en": "Light grey corner sofa with round ottoman"
+        }
+      }
+    },
+    "2572f5bf408eca6f9a1da0149a8967fb6a36dcfa8f9432b996b8b078d6cd4872": {
+      "visual": "4d2d4f0c3b592139",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit coffre blanc à panneaux décalés",
+            "description": "Le lit est présenté dans une chambre avec chevets.",
+            "details": [
+              "Le plateau relevé laisse voir un coffre compartimenté.",
+              "La tête de lit alterne panneaux clairs et accents dorés."
+            ]
+          },
+          "ar": {
+            "title": "سرير تخزين أبيض بألواح متداخلة",
+            "description": "يظهر السرير في غرفة مع طاولتين جانبيتين.",
+            "details": [
+              "تكشف القاعدة المرفوعة عن صندوق تخزين مقسّم.",
+              "ويتناوب على لوح الرأس اللون الفاتح واللمسات الذهبية."
+            ]
+          },
+          "en": {
+            "title": "White lift-up storage bed",
+            "description": "Shown in a bedroom with bedside tables.",
+            "details": [
+              "The raised deck reveals divided storage, and the headboard combines light panels with gold-tone accents."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Lit coffre blanc à panneaux décalés",
+          "ar": "سرير تخزين أبيض بألواح متداخلة",
+          "en": "White lift-up storage bed"
+        }
+      }
+    },
+    "2e541ca20a6fc1cb5c9fb3a327cf65c6e6c4bfd4c3516eb8f4d283b0c1daf64b": {
+      "visual": "9a391b86c7662b47",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit taupe à tête de lit graphique",
+            "description": "Une ligne dorée en zigzag traverse le dossier rembourré.",
+            "details": [
+              "Les vues montrent le cadre à deux niveaux et ses petits pieds dorés."
+            ]
+          },
+          "ar": {
+            "title": "سرير رمادي بني بلوح رأس هندسي",
+            "description": "يعبر خط ذهبي متعرّج لوح الرأس المبطن.",
+            "details": [
+              "وتُظهر الصور إطارًا بطبقتين وأرجلًا صغيرة ذهبية اللون."
+            ]
+          },
+          "en": {
+            "title": "Taupe bed with a graphic headboard",
+            "description": "A gold-tone zigzag crosses the padded headboard.",
+            "details": [
+              "The views show the two-tier frame and small gold-tone feet."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Lit taupe à tête de lit graphique",
+          "ar": "سرير رمادي بني بلوح رأس هندسي",
+          "en": "Taupe bed with a graphic headboard"
+        }
+      }
+    },
+    "3af5d0e2acf9458a3bbff009ee790c27db7e9e129fdbaba3542c7114fea4ac50": {
+      "visual": "076923073f1f9183",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé crème à capitonnage en relief",
+            "description": "Le dossier enveloppant et l’assise sont composés de volumes matelassés.",
+            "details": [
+              "Deux vues montrent l’effet du relief avec et sans coussins décoratifs."
+            ]
+          },
+          "ar": {
+            "title": "أريكة كريمية بتبطين بارز",
+            "description": "يتكوّن الظهر المحيط والمقعد من وحدات مبطنة بارزة.",
+            "details": [
+              "وتُظهر الصورتان التبطين مع وسائد الزينة وبدونها."
+            ]
+          },
+          "en": {
+            "title": "Cream sofa with deep tufting",
+            "description": "Padded sections shape the wraparound back and seat.",
+            "details": [
+              "Two views show the tufting with and without decorative cushions."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé crème à capitonnage en relief",
+          "ar": "أريكة كريمية بتبطين بارز",
+          "en": "Cream sofa with deep tufting"
+        }
+      }
+    },
+    "4af7334d6b1b2c1a7e74ef41c2d08e9995a67c0280e2746946b94b1ab2659ba8": {
+      "visual": "0f073331310d8dcb",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Deux lits taupe avec rangement relevable",
+            "description": "Deux couchages sont placés devant une tête de lit commune, composée de panneaux arrondis.",
+            "details": [
+              "Une vue montre le rangement sous un plateau relevé."
+            ]
+          },
+          "ar": {
+            "title": "سريران بلون رمادي بني مع تخزين قابل للرفع",
+            "description": "يوجد سريران أمام لوح رأس مشترك من ألواح مستديرة الحواف.",
+            "details": [
+              "وتُظهر إحدى الصور التخزين تحت القاعدة المرفوعة."
+            ]
+          },
+          "en": {
+            "title": "Pair of taupe beds with lift-up storage",
+            "description": "Two beds sit in front of a shared headboard made of rounded panels.",
+            "details": [
+              "One photograph shows storage beneath a raised deck."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Deux lits taupe avec rangement relevable",
+          "ar": "سريران بلون رمادي بني مع تخزين قابل للرفع",
+          "en": "Pair of taupe beds with lift-up storage"
+        }
+      }
+    },
+    "4f63a57bfb5a6cfbd7a6cb55f909eed792c4854d24e7fd7ec442006a5bb60c6e": {
+      "visual": "1e26162f031b082d",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit ivoire à cannelures verticales",
+            "description": "Un haut dossier et un cadre rembourré reprennent les mêmes lignes verticales.",
+            "details": [
+              "Les vues montrent le cadre seul et avec un matelas."
+            ]
+          },
+          "ar": {
+            "title": "سرير عاجي بتبطين عمودي",
+            "description": "تتكرر الخطوط العمودية على لوح الرأس العالي والإطار المبطن.",
+            "details": [
+              "وتظهر الصور الإطار وحده ومع مرتبة."
+            ]
+          },
+          "en": {
+            "title": "Ivory bed with vertical channels",
+            "description": "A tall headboard and padded frame share the same vertical lines.",
+            "details": [
+              "The views show the frame both bare and with a mattress."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Vue de face avec matelas",
+          "ar": "منظر أمامي مع مرتبة",
+          "en": "Front view with a mattress"
+        }
+      }
+    },
+    "4fa40e5e550ebfe1527e06681bebcb815529c7123452442d9df4564bd1849df9": {
+      "visual": "8c1c9d853f7f5d68",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit taupe à tête de lit graphique",
+            "description": "Une ligne dorée en zigzag traverse le dossier rembourré.",
+            "details": [
+              "Les vues montrent le cadre à deux niveaux et ses petits pieds dorés."
+            ]
+          },
+          "ar": {
+            "title": "سرير رمادي بني بلوح رأس هندسي",
+            "description": "يعبر خط ذهبي متعرّج لوح الرأس المبطن.",
+            "details": [
+              "وتُظهر الصور إطارًا بطبقتين وأرجلًا صغيرة ذهبية اللون."
+            ]
+          },
+          "en": {
+            "title": "Taupe bed with a graphic headboard",
+            "description": "A gold-tone zigzag crosses the padded headboard.",
+            "details": [
+              "The views show the two-tier frame and small gold-tone feet."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Vue de face du lit et du motif en zigzag",
+          "ar": "منظر أمامي للسرير والخط المتعرّج",
+          "en": "Front view of the bed and zigzag detail"
+        }
+      }
+    },
+    "5756837709672f4ca835a566b04a5658b22b50a882473f9bf56a871c9cdd5209": {
+      "visual": "5c58352b3535312c",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit blanc à tête de lit à damier",
+            "description": "Des panneaux blancs décalés alternent avec des bandes dorées sur la tête de lit.",
+            "details": [
+              "Le pied à cannelures est montré monté et séparément."
+            ]
+          },
+          "ar": {
+            "title": "سرير أبيض بلوح رأس بتوزيع متناوب",
+            "description": "تتناوب الألواح البيضاء المتداخلة مع شرائط ذهبية اللون على لوح الرأس.",
+            "details": [
+              "ويظهر اللوح المضلّع عند القدم مركّبًا ومنفصلًا."
+            ]
+          },
+          "en": {
+            "title": "White bed with a stepped panel headboard",
+            "description": "Offset white panels alternate with gold-tone strips on the headboard.",
+            "details": [
+              "The channelled footboard is shown assembled and separately."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Tête de lit seule avec détails des panneaux blancs",
+          "ar": "لوح الرأس وحده مع تفاصيل الألواح البيضاء",
+          "en": "Headboard alone showing the white panel details"
+        }
+      }
+    },
+    "5e37e85fd17049ed123010e469d60e006ed1863809db7f40b2f60a69673b129f": {
+      "visual": "cdab2f2b2b326b4b",
+      "analysis": {
+        "category": "fauteuils",
+        "translations": {
+          "fr": {
+            "title": "Fauteuil crème à dossier ouvert",
+            "description": "L’accoudoir arrondi se prolonge autour du dossier, au-dessus d’une ouverture.",
+            "details": [
+              "Le revêtement clair présente une texture bouclée."
+            ]
+          },
+          "ar": {
+            "title": "كرسي بذراعين كريمي بظهر مفتوح",
+            "description": "يمتد مسند الذراع المنحني حول الظهر فوق فتحة واضحة.",
+            "details": [
+              "ويظهر على الكسوة الفاتحة نسيج بحلقات صغيرة."
+            ]
+          },
+          "en": {
+            "title": "Cream open-back armchair",
+            "description": "The curved arm wraps around the back above an open gap.",
+            "details": [
+              "The light upholstery has a looped texture."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Fauteuil crème à dossier ouvert",
+          "ar": "كرسي بذراعين كريمي بظهر مفتوح",
+          "en": "Cream open-back armchair"
+        }
+      }
+    },
+    "622fcbd82dc6a181fd034486e7855e87b2119c9d07bad1bc5aab599acee3f4e4": {
+      "visual": "b9a185e1c6876b7b",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé d’angle bleu à coutures verticales",
+            "description": "Le revêtement bleu est marqué de coutures régulières sur le dossier et les assises.",
+            "details": [
+              "Des pieds fins dorés soulèvent la base."
+            ]
+          },
+          "ar": {
+            "title": "أريكة زاوية زرقاء بخياطة عمودية",
+            "description": "تظهر خطوط خياطة منتظمة على الظهر والمقاعد الزرقاء.",
+            "details": [
+              "وترفع أرجل رفيعة ذهبية اللون القاعدة."
+            ]
+          },
+          "en": {
+            "title": "Blue corner sofa with vertical seams",
+            "description": "Regular seams run across the blue back and seats.",
+            "details": [
+              "Slim gold-tone legs lift the base."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé d’angle bleu à coutures verticales",
+          "ar": "أريكة زاوية زرقاء بخياطة عمودية",
+          "en": "Blue corner sofa with vertical seams"
+        }
+      }
+    },
+    "63c47ccb711549ecb65a0da2d30f7ae93e7f8356f1da8d106a1afd2bb940be14": {
+      "visual": "16161305330c8d4b",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Deux lits taupe avec rangement relevable",
+            "description": "Deux couchages sont placés devant une tête de lit commune, composée de panneaux arrondis.",
+            "details": [
+              "Une vue montre le rangement sous un plateau relevé."
+            ]
+          },
+          "ar": {
+            "title": "سريران بلون رمادي بني مع تخزين قابل للرفع",
+            "description": "يوجد سريران أمام لوح رأس مشترك من ألواح مستديرة الحواف.",
+            "details": [
+              "وتُظهر إحدى الصور التخزين تحت القاعدة المرفوعة."
+            ]
+          },
+          "en": {
+            "title": "Pair of taupe beds with lift-up storage",
+            "description": "Two beds sit in front of a shared headboard made of rounded panels.",
+            "details": [
+              "One photograph shows storage beneath a raised deck."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Les deux couchages avec leurs plateaux fermés",
+          "ar": "السريران وقاعدتاهما مغلقتان",
+          "en": "Both beds with their decks closed"
+        }
+      }
+    },
+    "73febc0cf1bdb9afe760c6777f4bd300d50ab0a5d922f5201ac50ae008b2ffb1": {
+      "visual": "4146468696232b3e",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit blanc à haut dossier cannelé",
+            "description": "De grands panneaux verticaux couvrent le dossier.",
+            "details": [
+              "La photo montre le cadre rembourré et son intérieur sans matelas."
+            ]
+          },
+          "ar": {
+            "title": "سرير أبيض بلوح رأس مرتفع ومضلّع",
+            "description": "تغطي ألواح عمودية كبيرة لوح الرأس.",
+            "details": [
+              "وتُظهر الصورة الإطار المبطن وداخله دون مرتبة."
+            ]
+          },
+          "en": {
+            "title": "White bed with a tall channelled headboard",
+            "description": "Large vertical panels cover the headboard.",
+            "details": [
+              "The photograph shows the padded frame and its interior without a mattress."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Lit blanc à haut dossier cannelé",
+          "ar": "سرير أبيض بلوح رأس مرتفع ومضلّع",
+          "en": "White bed with a tall channelled headboard"
+        }
+      }
+    },
+    "7a3ade5b33bab3ee37ae78bc0fe73dbffefb4a238c3ebd9f0585abf5567a7035": {
+      "visual": "303d87c7e23a1a89",
+      "analysis": {
+        "category": "fauteuils",
+        "translations": {
+          "fr": {
+            "title": "Fauteuil crème à dossier ouvert",
+            "description": "L’accoudoir arrondi se prolonge autour du dossier, au-dessus d’une ouverture.",
+            "details": [
+              "Le revêtement clair présente une texture bouclée."
+            ]
+          },
+          "ar": {
+            "title": "كرسي بذراعين كريمي بظهر مفتوح",
+            "description": "يمتد مسند الذراع المنحني حول الظهر فوق فتحة واضحة.",
+            "details": [
+              "ويظهر على الكسوة الفاتحة نسيج بحلقات صغيرة."
+            ]
+          },
+          "en": {
+            "title": "Cream open-back armchair",
+            "description": "The curved arm wraps around the back above an open gap.",
+            "details": [
+              "The light upholstery has a looped texture."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Rangée de fauteuils crème à dossiers ouverts",
+          "ar": "صف من الكراسي الكريمية ذات الظهر المفتوح",
+          "en": "Row of cream open-back armchairs"
+        }
+      }
+    },
+    "7da9b55318c029c1b1d872039358c3b00d45d1de1a6550984984d30fbc41c335": {
+      "visual": "bbbbbfac8ee667c3",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Salon bleu pâle à coussins à motifs",
+            "description": "Des banquettes claires bordent la pièce.",
+            "details": [
+              "Les coussins mêlent motifs bleus et tons unis, au-dessus d’une base claire divisée en panneaux."
+            ]
+          },
+          "ar": {
+            "title": "صالون أزرق فاتح بوسائد مزخرفة",
+            "description": "تمتد مقاعد زرقاء فاتحة على جوانب الغرفة.",
+            "details": [
+              "تجمع الوسائد بين الزخارف الزرقاء والألوان السادة فوق قاعدة فاتحة مقسّمة إلى ألواح."
+            ]
+          },
+          "en": {
+            "title": "Pale blue seating with patterned cushions",
+            "description": "Light blue benches line the room.",
+            "details": [
+              "Patterned and solid cushions sit above a light panelled base."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Salon bleu pâle à coussins à motifs",
+          "ar": "صالون أزرق فاتح بوسائد مزخرفة",
+          "en": "Pale blue seating with patterned cushions"
+        }
+      }
+    },
+    "842bcbe5bbe48606c2370feac75634b6942d751dce63d2d57a680f43dc4f4ce6": {
+      "visual": "616d780c06028090",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé en U vert olive",
+            "description": "Deux retours encadrent une longue assise.",
+            "details": [
+              "Des coutures verticales rythment les accoudoirs et les façades."
+            ]
+          },
+          "ar": {
+            "title": "أريكة خضراء زيتونية على شكل U",
+            "description": "تحيط قطعتان جانبيتان بمقعد طويل.",
+            "details": [
+              "وتظهر خياطة عمودية على مسندي الذراع والواجهات."
+            ]
+          },
+          "en": {
+            "title": "Olive green U-shaped sofa",
+            "description": "Two returns frame a long seat.",
+            "details": [
+              "Vertical seams run along the arms and front panels."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé en U vert olive",
+          "ar": "أريكة خضراء زيتونية على شكل U",
+          "en": "Olive green U-shaped sofa"
+        }
+      }
+    },
+    "8430526246859c8e1347ff0b3c2e37911d0555598319e22ada6e7c691a319478": {
+      "visual": "33321e1f6b436701",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit ivoire à cannelures verticales",
+            "description": "Un haut dossier et un cadre rembourré reprennent les mêmes lignes verticales.",
+            "details": [
+              "Les vues montrent le cadre seul et avec un matelas."
+            ]
+          },
+          "ar": {
+            "title": "سرير عاجي بتبطين عمودي",
+            "description": "تتكرر الخطوط العمودية على لوح الرأس العالي والإطار المبطن.",
+            "details": [
+              "وتظهر الصور الإطار وحده ومع مرتبة."
+            ]
+          },
+          "en": {
+            "title": "Ivory bed with vertical channels",
+            "description": "A tall headboard and padded frame share the same vertical lines.",
+            "details": [
+              "The views show the frame both bare and with a mattress."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Lit ivoire à cannelures verticales",
+          "ar": "سرير عاجي بتبطين عمودي",
+          "en": "Ivory bed with vertical channels"
+        }
+      }
+    },
+    "84a098bfb3e63905a6eca21b1202bbc2b80da682d87fe9b108e303bb78161a45": {
+      "visual": "0c61313cd8f12939",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit coffre blanc à panneaux décalés",
+            "description": "Le lit est présenté dans une chambre avec chevets.",
+            "details": [
+              "Le plateau relevé laisse voir un coffre compartimenté.",
+              "La tête de lit alterne panneaux clairs et accents dorés."
+            ]
+          },
+          "ar": {
+            "title": "سرير تخزين أبيض بألواح متداخلة",
+            "description": "يظهر السرير في غرفة مع طاولتين جانبيتين.",
+            "details": [
+              "تكشف القاعدة المرفوعة عن صندوق تخزين مقسّم.",
+              "ويتناوب على لوح الرأس اللون الفاتح واللمسات الذهبية."
+            ]
+          },
+          "en": {
+            "title": "White lift-up storage bed",
+            "description": "Shown in a bedroom with bedside tables.",
+            "details": [
+              "The raised deck reveals divided storage, and the headboard combines light panels with gold-tone accents."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Plateau du lit relevé et compartiments du coffre visibles",
+          "ar": "قاعدة السرير مرفوعة وأقسام التخزين ظاهرة",
+          "en": "Bed deck raised to show the divided storage"
+        }
+      }
+    },
+    "93bd5752e0ccadef656b64f5ef6551b5224633f0c68963ff173b442def896b9f": {
+      "visual": "16262e253f3c0f27",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit ivoire à cannelures verticales",
+            "description": "Un haut dossier et un cadre rembourré reprennent les mêmes lignes verticales.",
+            "details": [
+              "Les vues montrent le cadre seul et avec un matelas."
+            ]
+          },
+          "ar": {
+            "title": "سرير عاجي بتبطين عمودي",
+            "description": "تتكرر الخطوط العمودية على لوح الرأس العالي والإطار المبطن.",
+            "details": [
+              "وتظهر الصور الإطار وحده ومع مرتبة."
+            ]
+          },
+          "en": {
+            "title": "Ivory bed with vertical channels",
+            "description": "A tall headboard and padded frame share the same vertical lines.",
+            "details": [
+              "The views show the frame both bare and with a mattress."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Cadre vu de face sans matelas",
+          "ar": "منظر أمامي للإطار دون مرتبة",
+          "en": "Front view of the frame without a mattress"
+        }
+      }
+    },
+    "94b403ece453af1fa661c5bfd4f4636dc2ecb5f0541897fba8e4963e47cae5b9": {
+      "visual": "c91931410171d9c4",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lit blanc à tête de lit à damier",
+            "description": "Des panneaux blancs décalés alternent avec des bandes dorées sur la tête de lit.",
+            "details": [
+              "Le pied à cannelures est montré monté et séparément."
+            ]
+          },
+          "ar": {
+            "title": "سرير أبيض بلوح رأس بتوزيع متناوب",
+            "description": "تتناوب الألواح البيضاء المتداخلة مع شرائط ذهبية اللون على لوح الرأس.",
+            "details": [
+              "ويظهر اللوح المضلّع عند القدم مركّبًا ومنفصلًا."
+            ]
+          },
+          "en": {
+            "title": "White bed with a stepped panel headboard",
+            "description": "Offset white panels alternate with gold-tone strips on the headboard.",
+            "details": [
+              "The channelled footboard is shown assembled and separately."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Tête de lit et panneau de pied présentés séparément",
+          "ar": "لوح الرأس ولوح القدم معروضان منفصلين",
+          "en": "Headboard and footboard shown separately"
+        }
+      }
+    },
+    "a3054ac200f852aee25bbc29c84825570a51ff37dd19ce9add403675389b8b08": {
+      "visual": "972539711c070600",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé d’angle brun à coussins ocre",
+            "description": "Deux longues assises se rejoignent en angle.",
+            "details": [
+              "Des coussins ocre soulignent le revêtement brun et une bande claire longe la base."
+            ]
+          },
+          "ar": {
+            "title": "أريكة زاوية بنية بوسائد بلون المغرة",
+            "description": "يلتقي مقعدان طويلان عند زاوية.",
+            "details": [
+              "وتبرز وسائد بلون المغرة فوق الكسوة البنية، مع شريط فاتح على طول القاعدة."
+            ]
+          },
+          "en": {
+            "title": "Brown corner sofa with ochre cushions",
+            "description": "Two long seats meet at a corner.",
+            "details": [
+              "Ochre cushions accent the brown upholstery, with a light band along the base."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé d’angle brun à coussins ocre",
+          "ar": "أريكة زاوية بنية بوسائد بلون المغرة",
+          "en": "Brown corner sofa with ochre cushions"
+        }
+      }
+    },
+    "a35de903059bcde3b3d125988f26aa84558bedd18cb012f1973aa12823f27c32": {
+      "visual": "0d0f9633e7c30317",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé d’angle clair avec tablette latérale",
+            "description": "Les assises sont divisées par des coutures droites.",
+            "details": [
+              "Les coussins sont bordés de foncé et une tablette brune termine un côté."
+            ]
+          },
+          "ar": {
+            "title": "أريكة زاوية فاتحة مع رف جانبي",
+            "description": "تقسّم خطوط الخياطة المستقيمة المقاعد.",
+            "details": [
+              "للوسائد حواف داكنة وفي أحد الطرفين رف بني."
+            ]
+          },
+          "en": {
+            "title": "Light corner sofa with side shelf",
+            "description": "Straight seams divide the seats.",
+            "details": [
+              "Dark piping outlines the cushions, and a brown shelf finishes one end."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé d’angle clair avec tablette latérale",
+          "ar": "أريكة زاوية فاتحة مع رف جانبي",
+          "en": "Light corner sofa with side shelf"
+        }
+      }
+    },
+    "a6e8b024180a5243d58f3c9479c89611ab9fd3bced17dc5a0bb0bb4c175a272c": {
+      "visual": "070d0f034f3f3b91",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé crème à capitonnage en relief",
+            "description": "Le dossier enveloppant et l’assise sont composés de volumes matelassés.",
+            "details": [
+              "Deux vues montrent l’effet du relief avec et sans coussins décoratifs."
+            ]
+          },
+          "ar": {
+            "title": "أريكة كريمية بتبطين بارز",
+            "description": "يتكوّن الظهر المحيط والمقعد من وحدات مبطنة بارزة.",
+            "details": [
+              "وتُظهر الصورتان التبطين مع وسائد الزينة وبدونها."
+            ]
+          },
+          "en": {
+            "title": "Cream sofa with deep tufting",
+            "description": "Padded sections shape the wraparound back and seat.",
+            "details": [
+              "Two views show the tufting with and without decorative cushions."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé crème sans coussins décoratifs",
+          "ar": "الأريكة الكريمية دون وسائد الزينة",
+          "en": "Cream sofa without decorative cushions"
+        }
+      }
+    },
+    "a9b234ab51275cb2415918ebedfccb2874630c572ff469682965b1deaf39d32d": {
+      "visual": "eb690d4bfb7f7f3f",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé droit gris avec deux poufs",
+            "description": "Une assise continue repose sur une base à panneaux.",
+            "details": [
+              "Le dossier est strié verticalement et la vue de face montre deux poufs assortis."
+            ]
+          },
+          "ar": {
+            "title": "أريكة مستقيمة رمادية مع مقعدين صغيرين",
+            "description": "يرتكز المقعد المتصل على قاعدة مقسّمة إلى ألواح.",
+            "details": [
+              "ويظهر الظهر بخطوط عمودية مع مقعدين صغيرين متناسقين في الصورة الأمامية."
+            ]
+          },
+          "en": {
+            "title": "Straight grey sofa with two ottomans",
+            "description": "A continuous seat sits on a panelled base.",
+            "details": [
+              "The back is vertically channelled, and the front view shows two matching ottomans."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé gris vu de biais, sans les poufs",
+          "ar": "منظر جانبي للأريكة الرمادية دون المقعدين الصغيرين",
+          "en": "Angled view of the grey sofa without the ottomans"
+        }
+      }
+    },
+    "ac0559b823c442a462cf522afe566733128977ea11ab30b27b94cccea90b788f": {
+      "visual": "65644740308ce633",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lits coffres bleu pétrole à accents dorés",
+            "description": "Les deux cadres ont des têtes rembourrées à bandes dorées.",
+            "details": [
+              "Sur l’un d’eux, le plateau relevé montre l’intérieur du coffre."
+            ]
+          },
+          "ar": {
+            "title": "سريرا تخزين باللون الأزرق البترولي ولمسات ذهبية",
+            "description": "للإطارين لوحا رأس مبطّنان بشرائط ذهبية اللون.",
+            "details": [
+              "وتكشف القاعدة المرفوعة لأحدهما عن صندوق التخزين."
+            ]
+          },
+          "en": {
+            "title": "Petrol blue lift-up beds with gold-tone accents",
+            "description": "Both frames have padded headboards with gold-tone strips.",
+            "details": [
+              "One raised deck shows the storage compartment."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Lits coffres bleu pétrole à accents dorés",
+          "ar": "سريرا تخزين باللون الأزرق البترولي ولمسات ذهبية",
+          "en": "Petrol blue lift-up beds with gold-tone accents"
+        }
+      }
+    },
+    "b36c1eb6574ab173d4d6efacb660205fe58cbbfe4bb0412808b2cc1d0e3538e0": {
+      "visual": "531989b94e474273",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Deux lits clairs à têtes de lit rembourrées",
+            "description": "Deux lits séparés entourent un chevet à tiroirs.",
+            "details": [
+              "Leurs têtes de lit présentent des panneaux rectangulaires et une bande verticale dorée."
+            ]
+          },
+          "ar": {
+            "title": "سريران فاتحان بلوحي رأس مبطنين",
+            "description": "يتوسط السريرين المنفصلين منضد بأدراج.",
+            "details": [
+              "ويظهر على لوحي الرأس تبطين مستطيل وشريط عمودي ذهبي اللون."
+            ]
+          },
+          "en": {
+            "title": "Pair of light beds with padded headboards",
+            "description": "A drawer unit sits between two separate beds.",
+            "details": [
+              "Their headboards have rectangular panels and a vertical gold-tone strip."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Deux lits clairs à têtes de lit rembourrées",
+          "ar": "سريران فاتحان بلوحي رأس مبطنين",
+          "en": "Pair of light beds with padded headboards"
+        }
+      }
+    },
+    "b9c781225e4f18cfe76f61e6f8593f04850fba4accc66ed93d94fda08eafedfd": {
+      "visual": "5a7fbc735f2f4f09",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé d’angle beige à coussins contrastés",
+            "description": "Un retour à coutures verticales rejoint une longue assise lisse.",
+            "details": [
+              "Les trois coussins à motifs noirs et blancs accompagnent les grands coussins clairs."
+            ]
+          },
+          "ar": {
+            "title": "أريكة زاوية بيج بوسائد متباينة",
+            "description": "يلتقي الجانب ذو الخياطة العمودية بمقعد طويل أملس.",
+            "details": [
+              "وترافق ثلاث وسائد مزخرفة بالأسود والأبيض الوسائد الكبيرة الفاتحة."
+            ]
+          },
+          "en": {
+            "title": "Beige corner sofa with contrasting cushions",
+            "description": "A channelled return meets a long smooth seat.",
+            "details": [
+              "Three black-and-white patterned cushions sit among the larger light cushions."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé d’angle beige à coussins contrastés",
+          "ar": "أريكة زاوية بيج بوسائد متباينة",
+          "en": "Beige corner sofa with contrasting cushions"
+        }
+      }
+    },
+    "bbb2bf4f215a5ed24dd4ada7be4df4dc2471daee0a78a135ec4cb9601ba2206a": {
+      "visual": "2170d40f8e0e1a2f",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Salon beige en U avec rangements sous les assises",
+            "description": "Les assises beige entourent un tapis à motifs.",
+            "details": [
+              "La seconde vue montre les plateaux relevés et les espaces de rangement qu’ils recouvrent."
+            ]
+          },
+          "ar": {
+            "title": "صالون بيج على شكل U مع تخزين تحت المقاعد",
+            "description": "تحيط المقاعد البيج بسجادة مزخرفة.",
+            "details": [
+              "وتُظهر الصورة الثانية القواعد المرفوعة ومساحات التخزين تحتها."
+            ]
+          },
+          "en": {
+            "title": "Beige U-shaped seating with under-seat storage",
+            "description": "Beige seating surrounds a patterned rug.",
+            "details": [
+              "The second view shows the raised decks and storage spaces underneath."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Assises relevées avec compartiments visibles",
+          "ar": "المقاعد مرفوعة وأقسام التخزين ظاهرة",
+          "en": "Seats lifted to reveal the storage compartments"
+        }
+      }
+    },
+    "c9d88866e54ea32a45baf523e1605062c37947553264ad921f583c06c7967e04": {
+      "visual": "a52f4967f36b1000",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé d’angle écru à grands coussins",
+            "description": "Les grands coussins couvrent les deux côtés du dossier.",
+            "details": [
+              "Un retour à coutures verticales contraste avec l’assise lisse de l’autre côté."
+            ]
+          },
+          "ar": {
+            "title": "أريكة زاوية بلون عاجي بوسائد كبيرة",
+            "description": "تغطي الوسائد الكبيرة جانبي الظهر.",
+            "details": [
+              "ويقابل الجانب ذو الخطوط العمودية مقعد أملس في الجهة الأخرى."
+            ]
+          },
+          "en": {
+            "title": "Ecru corner sofa with large cushions",
+            "description": "Large cushions line both sides of the back.",
+            "details": [
+              "A channelled return contrasts with the smooth seat on the other side."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé d’angle écru à grands coussins",
+          "ar": "أريكة زاوية بلون عاجي بوسائد كبيرة",
+          "en": "Ecru corner sofa with large cushions"
+        }
+      }
+    },
+    "ca902940daa353226237851b928a65c35e3e3b7d8e9fa92ce613960bda60ff42": {
+      "visual": "5a1f37313d1b0f07",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé d’angle ivoire à dossier strié",
+            "description": "Deux assises lisses se rejoignent à angle droit.",
+            "details": [
+              "Des coutures verticales marquent le dossier, les accoudoirs et la base."
+            ]
+          },
+          "ar": {
+            "title": "أريكة زاوية عاجية بظهر مخطّط",
+            "description": "يلتقي مقعدان أملسان عند زاوية قائمة.",
+            "details": [
+              "وتظهر خطوط عمودية على الظهر ومساند الذراعين والقاعدة."
+            ]
+          },
+          "en": {
+            "title": "Ivory corner sofa with a channelled back",
+            "description": "Two smooth seats meet at a right angle.",
+            "details": [
+              "Vertical seams mark the back, arms and base."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé d’angle ivoire à dossier strié",
+          "ar": "أريكة زاوية عاجية بظهر مخطّط",
+          "en": "Ivory corner sofa with a channelled back"
+        }
+      }
+    },
+    "df942d1a62d24c02f76f6fab83231c2f4e2a99fd625e2b1ba34b7e74f069d7ef": {
+      "visual": "464c4a4a2e0d0d0f",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé droit gris avec deux poufs",
+            "description": "Une assise continue repose sur une base à panneaux.",
+            "details": [
+              "Le dossier est strié verticalement et la vue de face montre deux poufs assortis."
+            ]
+          },
+          "ar": {
+            "title": "أريكة مستقيمة رمادية مع مقعدين صغيرين",
+            "description": "يرتكز المقعد المتصل على قاعدة مقسّمة إلى ألواح.",
+            "details": [
+              "ويظهر الظهر بخطوط عمودية مع مقعدين صغيرين متناسقين في الصورة الأمامية."
+            ]
+          },
+          "en": {
+            "title": "Straight grey sofa with two ottomans",
+            "description": "A continuous seat sits on a panelled base.",
+            "details": [
+              "The back is vertically channelled, and the front view shows two matching ottomans."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé droit gris avec deux poufs",
+          "ar": "أريكة مستقيمة رمادية مع مقعدين صغيرين",
+          "en": "Straight grey sofa with two ottomans"
+        }
+      }
+    },
+    "e0c064a0272631d6dd64b8bde3a4ca3b55269cc54977bc7e2b3bea6ed70f90f2": {
+      "visual": "4169b2338e8e1e1b",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Salon beige en U avec rangements sous les assises",
+            "description": "Les assises beige entourent un tapis à motifs.",
+            "details": [
+              "La seconde vue montre les plateaux relevés et les espaces de rangement qu’ils recouvrent."
+            ]
+          },
+          "ar": {
+            "title": "صالون بيج على شكل U مع تخزين تحت المقاعد",
+            "description": "تحيط المقاعد البيج بسجادة مزخرفة.",
+            "details": [
+              "وتُظهر الصورة الثانية القواعد المرفوعة ومساحات التخزين تحتها."
+            ]
+          },
+          "en": {
+            "title": "Beige U-shaped seating with under-seat storage",
+            "description": "Beige seating surrounds a patterned rug.",
+            "details": [
+              "The second view shows the raised decks and storage spaces underneath."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Salon beige en U avec rangements sous les assises",
+          "ar": "صالون بيج على شكل U مع تخزين تحت المقاعد",
+          "en": "Beige U-shaped seating with under-seat storage"
+        }
+      }
+    },
+    "f6872e8d86756022147c21d7f4cd6d713090487db562b3e2aa18e76506dce349": {
+      "visual": "62695a617170830b",
+      "analysis": {
+        "category": "lits",
+        "translations": {
+          "fr": {
+            "title": "Lits coffres violets à têtes capitonnées",
+            "description": "Les cadres violets sont alignés côte à côte.",
+            "details": [
+              "Un plateau relevé montre le coffre et les têtes de lit présentent un capitonnage quadrillé."
+            ]
+          },
+          "ar": {
+            "title": "أسرّة تخزين بنفسجية بألواح رأس مبطنة",
+            "description": "تصطف الإطارات البنفسجية جنبًا إلى جنب.",
+            "details": [
+              "وتكشف قاعدة مرفوعة عن صندوق التخزين، وتظهر على ألواح الرأس مربعات مبطنة."
+            ]
+          },
+          "en": {
+            "title": "Purple lift-up beds with tufted headboards",
+            "description": "Purple frames stand side by side.",
+            "details": [
+              "A raised deck shows the storage compartment, and the headboards have grid tufting."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Lits coffres violets à têtes capitonnées",
+          "ar": "أسرّة تخزين بنفسجية بألواح رأس مبطنة",
+          "en": "Purple lift-up beds with tufted headboards"
+        }
+      }
+    },
+    "fa9c1c5a56587a749aaa5ae0d8cd81d88bc769106252f6faf9749123436537e1": {
+      "visual": "5e628fada7ffffff",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Canapé arrondi avec deux poufs cylindriques",
+            "description": "Une assise aux bords arrondis est encadrée par deux poufs.",
+            "details": [
+              "Trois coussins à motifs noirs et blancs apparaissent sur la photo."
+            ]
+          },
+          "ar": {
+            "title": "أريكة مستديرة مع مقعدين أسطوانيين",
+            "description": "يحيط مقعدان أسطوانيان بأريكة ذات حواف مستديرة.",
+            "details": [
+              "وتظهر في الصورة ثلاث وسائد بزخارف سوداء وبيضاء."
+            ]
+          },
+          "en": {
+            "title": "Curved sofa with two cylindrical ottomans",
+            "description": "Two cylindrical ottomans flank the rounded seat.",
+            "details": [
+              "Three black-and-white patterned cushions appear in the photograph."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Canapé arrondi avec deux poufs cylindriques",
+          "ar": "أريكة مستديرة مع مقعدين أسطوانيين",
+          "en": "Curved sofa with two cylindrical ottomans"
+        }
+      }
+    },
+    "fd80cfceda6e0684baeb4902316c99f80456f230f558a3d0fc0e0c71e45fa3f2": {
+      "visual": "1f5ece0d470f8f0f",
+      "analysis": {
+        "category": "canapes",
+        "translations": {
+          "fr": {
+            "title": "Salon taupe en U à coussins terracotta",
+            "description": "Les assises à coutures droites encadrent un sol à motif géométrique.",
+            "details": [
+              "Des coussins terracotta et ocre contrastent avec le revêtement taupe."
+            ]
+          },
+          "ar": {
+            "title": "صالون رمادي بني على شكل U بوسائد طينية اللون",
+            "description": "تحيط المقاعد ذات الخياطة المستقيمة بأرضية ذات نقش هندسي.",
+            "details": [
+              "وتبرز وسائد بلون الطين والمغرة على الكسوة الرمادية البنية."
+            ]
+          },
+          "en": {
+            "title": "Taupe U-shaped seating with terracotta cushions",
+            "description": "Straight-stitched seats frame a geometric floor.",
+            "details": [
+              "Terracotta and ochre cushions stand against the taupe upholstery."
+            ]
+          }
+        },
+        "alt": {
+          "fr": "Salon taupe en U à coussins terracotta",
+          "ar": "صالون رمادي بني على شكل U بوسائد طينية اللون",
+          "en": "Taupe U-shaped seating with terracotta cushions"
+        }
+      }
+    }
+  },
+  "archived": [
+    "024f91c367b9790ea58df3bec494950b4eb4110927c8f6ff7e32fe8ec57ddeda",
+    "08af004dc5945e603745145d68aca07b569ab48371418c08d86cc60c9da64633",
+    "10144f8d861e60b06232b0ca506773d3403a132d40b67ee6e5e0f134e56bb2e0",
+    "154acb7d4635ca552e70cb5901091c5ebecf56394b6b3c83cbf2dac9e6a58ecd",
+    "170a5c6415b18f3f4d1f10f62cc399d17a563791be3045f7667cd8fe9578e123",
+    "17d274d6ebb07c2730182ac885e3326b53041e712dbe843c08c503afa9121abc",
+    "23ab953b23a8b34b6f82a64c5f9e982915c96d7e342a4c12c9a6bbdd49878457",
+    "2572f5bf408eca6f9a1da0149a8967fb6a36dcfa8f9432b996b8b078d6cd4872",
+    "2e541ca20a6fc1cb5c9fb3a327cf65c6e6c4bfd4c3516eb8f4d283b0c1daf64b",
+    "3af5d0e2acf9458a3bbff009ee790c27db7e9e129fdbaba3542c7114fea4ac50",
+    "4af7334d6b1b2c1a7e74ef41c2d08e9995a67c0280e2746946b94b1ab2659ba8",
+    "4f63a57bfb5a6cfbd7a6cb55f909eed792c4854d24e7fd7ec442006a5bb60c6e",
+    "4fa40e5e550ebfe1527e06681bebcb815529c7123452442d9df4564bd1849df9",
+    "5756837709672f4ca835a566b04a5658b22b50a882473f9bf56a871c9cdd5209",
+    "5e37e85fd17049ed123010e469d60e006ed1863809db7f40b2f60a69673b129f",
+    "622fcbd82dc6a181fd034486e7855e87b2119c9d07bad1bc5aab599acee3f4e4",
+    "63c47ccb711549ecb65a0da2d30f7ae93e7f8356f1da8d106a1afd2bb940be14",
+    "73febc0cf1bdb9afe760c6777f4bd300d50ab0a5d922f5201ac50ae008b2ffb1",
+    "7a3ade5b33bab3ee37ae78bc0fe73dbffefb4a238c3ebd9f0585abf5567a7035",
+    "7da9b55318c029c1b1d872039358c3b00d45d1de1a6550984984d30fbc41c335",
+    "842bcbe5bbe48606c2370feac75634b6942d751dce63d2d57a680f43dc4f4ce6",
+    "8430526246859c8e1347ff0b3c2e37911d0555598319e22ada6e7c691a319478",
+    "84a098bfb3e63905a6eca21b1202bbc2b80da682d87fe9b108e303bb78161a45",
+    "93bd5752e0ccadef656b64f5ef6551b5224633f0c68963ff173b442def896b9f",
+    "94b403ece453af1fa661c5bfd4f4636dc2ecb5f0541897fba8e4963e47cae5b9",
+    "a3054ac200f852aee25bbc29c84825570a51ff37dd19ce9add403675389b8b08",
+    "a35de903059bcde3b3d125988f26aa84558bedd18cb012f1973aa12823f27c32",
+    "a6e8b024180a5243d58f3c9479c89611ab9fd3bced17dc5a0bb0bb4c175a272c",
+    "a9b234ab51275cb2415918ebedfccb2874630c572ff469682965b1deaf39d32d",
+    "ac0559b823c442a462cf522afe566733128977ea11ab30b27b94cccea90b788f",
+    "b36c1eb6574ab173d4d6efacb660205fe58cbbfe4bb0412808b2cc1d0e3538e0",
+    "b9c781225e4f18cfe76f61e6f8593f04850fba4accc66ed93d94fda08eafedfd",
+    "bbb2bf4f215a5ed24dd4ada7be4df4dc2471daee0a78a135ec4cb9601ba2206a",
+    "c9d88866e54ea32a45baf523e1605062c37947553264ad921f583c06c7967e04",
+    "ca902940daa353226237851b928a65c35e3e3b7d8e9fa92ce613960bda60ff42",
+    "df942d1a62d24c02f76f6fab83231c2f4e2a99fd625e2b1ba34b7e74f069d7ef",
+    "e0c064a0272631d6dd64b8bde3a4ca3b55269cc54977bc7e2b3bea6ed70f90f2",
+    "f6872e8d86756022147c21d7f4cd6d713090487db562b3e2aa18e76506dce349",
+    "fa9c1c5a56587a749aaa5ae0d8cd81d88bc769106252f6faf9749123436537e1",
+    "fd80cfceda6e0684baeb4902316c99f80456f230f558a3d0fc0e0c71e45fa3f2"
+  ]
 }

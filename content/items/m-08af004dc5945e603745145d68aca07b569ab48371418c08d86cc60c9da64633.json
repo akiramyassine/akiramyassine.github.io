@@ -1,0 +1,40 @@
+{
+  "id": "m-08af004dc5945e603745145d68aca07b569ab48371418c08d86cc60c9da64633",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé d’angle taupe à assise quadrillée",
+      "description": "Les coutures forment un quadrillage sur les assises.",
+      "details": [
+        "Des coussins vert foncé et terracotta accompagnent les accoudoirs droits."
+      ]
+    },
+    "ar": {
+      "title": "أريكة زاوية رمادية بنية بمقاعد مربّعة",
+      "description": "تشكّل الخياطة شبكة مربعات على المقاعد.",
+      "details": [
+        "وتظهر وسائد خضراء داكنة وأخرى بلون الطين إلى جانب المساند المستقيمة."
+      ]
+    },
+    "en": {
+      "title": "Taupe corner sofa with grid stitching",
+      "description": "Stitching forms a grid across the seats.",
+      "details": [
+        "Dark green and terracotta cushions sit beside the straight arms."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/08af004dc5945e603745145d68aca07b569ab48371418c08d86cc60c9da64633.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Canapé d’angle taupe à assise quadrillée",
+        "ar": "أريكة زاوية رمادية بنية بمقاعد مربّعة",
+        "en": "Taupe corner sofa with grid stitching"
+      }
+    }
+  ]
+}

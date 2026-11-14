@@ -1,0 +1,50 @@
+{
+  "id": "m-3af5d0e2acf9458a3bbff009ee790c27db7e9e129fdbaba3542c7114fea4ac50",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé crème à capitonnage en relief",
+      "description": "Le dossier enveloppant et l’assise sont composés de volumes matelassés.",
+      "details": [
+        "Deux vues montrent l’effet du relief avec et sans coussins décoratifs."
+      ]
+    },
+    "ar": {
+      "title": "أريكة كريمية بتبطين بارز",
+      "description": "يتكوّن الظهر المحيط والمقعد من وحدات مبطنة بارزة.",
+      "details": [
+        "وتُظهر الصورتان التبطين مع وسائد الزينة وبدونها."
+      ]
+    },
+    "en": {
+      "title": "Cream sofa with deep tufting",
+      "description": "Padded sections shape the wraparound back and seat.",
+      "details": [
+        "Two views show the tufting with and without decorative cushions."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/3af5d0e2acf9458a3bbff009ee790c27db7e9e129fdbaba3542c7114fea4ac50.webp",
+      "width": 1600,
+      "height": 1060,
+      "alt": {
+        "fr": "Canapé crème à capitonnage en relief",
+        "ar": "أريكة كريمية بتبطين بارز",
+        "en": "Cream sofa with deep tufting"
+      }
+    },
+    {
+      "src": "/media/a6e8b024180a5243d58f3c9479c89611ab9fd3bced17dc5a0bb0bb4c175a272c.webp",
+      "width": 1600,
+      "height": 1053,
+      "alt": {
+        "fr": "Canapé crème sans coussins décoratifs",
+        "ar": "الأريكة الكريمية دون وسائد الزينة",
+        "en": "Cream sofa without decorative cushions"
+      }
+    }
+  ]
+}

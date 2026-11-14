@@ -1,0 +1,40 @@
+{
+  "id": "m-fa9c1c5a56587a749aaa5ae0d8cd81d88bc769106252f6faf9749123436537e1",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé arrondi avec deux poufs cylindriques",
+      "description": "Une assise aux bords arrondis est encadrée par deux poufs.",
+      "details": [
+        "Trois coussins à motifs noirs et blancs apparaissent sur la photo."
+      ]
+    },
+    "ar": {
+      "title": "أريكة مستديرة مع مقعدين أسطوانيين",
+      "description": "يحيط مقعدان أسطوانيان بأريكة ذات حواف مستديرة.",
+      "details": [
+        "وتظهر في الصورة ثلاث وسائد بزخارف سوداء وبيضاء."
+      ]
+    },
+    "en": {
+      "title": "Curved sofa with two cylindrical ottomans",
+      "description": "Two cylindrical ottomans flank the rounded seat.",
+      "details": [
+        "Three black-and-white patterned cushions appear in the photograph."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/fa9c1c5a56587a749aaa5ae0d8cd81d88bc769106252f6faf9749123436537e1.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Canapé arrondi avec deux poufs cylindriques",
+        "ar": "أريكة مستديرة مع مقعدين أسطوانيين",
+        "en": "Curved sofa with two cylindrical ottomans"
+      }
+    }
+  ]
+}

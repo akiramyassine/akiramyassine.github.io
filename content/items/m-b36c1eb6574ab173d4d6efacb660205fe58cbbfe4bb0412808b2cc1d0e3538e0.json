@@ -1,0 +1,40 @@
+{
+  "id": "m-b36c1eb6574ab173d4d6efacb660205fe58cbbfe4bb0412808b2cc1d0e3538e0",
+  "kind": "portfolio",
+  "category": "lits",
+  "translations": {
+    "fr": {
+      "title": "Deux lits clairs à têtes de lit rembourrées",
+      "description": "Deux lits séparés entourent un chevet à tiroirs.",
+      "details": [
+        "Leurs têtes de lit présentent des panneaux rectangulaires et une bande verticale dorée."
+      ]
+    },
+    "ar": {
+      "title": "سريران فاتحان بلوحي رأس مبطنين",
+      "description": "يتوسط السريرين المنفصلين منضد بأدراج.",
+      "details": [
+        "ويظهر على لوحي الرأس تبطين مستطيل وشريط عمودي ذهبي اللون."
+      ]
+    },
+    "en": {
+      "title": "Pair of light beds with padded headboards",
+      "description": "A drawer unit sits between two separate beds.",
+      "details": [
+        "Their headboards have rectangular panels and a vertical gold-tone strip."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/b36c1eb6574ab173d4d6efacb660205fe58cbbfe4bb0412808b2cc1d0e3538e0.webp",
+      "width": 1800,
+      "height": 1355,
+      "alt": {
+        "fr": "Deux lits clairs à têtes de lit rembourrées",
+        "ar": "سريران فاتحان بلوحي رأس مبطنين",
+        "en": "Pair of light beds with padded headboards"
+      }
+    }
+  ]
+}

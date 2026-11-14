@@ -1,0 +1,40 @@
+{
+  "id": "m-73febc0cf1bdb9afe760c6777f4bd300d50ab0a5d922f5201ac50ae008b2ffb1",
+  "kind": "catalogue",
+  "category": "lits",
+  "translations": {
+    "fr": {
+      "title": "Lit blanc à haut dossier cannelé",
+      "description": "De grands panneaux verticaux couvrent le dossier.",
+      "details": [
+        "La photo montre le cadre rembourré et son intérieur sans matelas."
+      ]
+    },
+    "ar": {
+      "title": "سرير أبيض بلوح رأس مرتفع ومضلّع",
+      "description": "تغطي ألواح عمودية كبيرة لوح الرأس.",
+      "details": [
+        "وتُظهر الصورة الإطار المبطن وداخله دون مرتبة."
+      ]
+    },
+    "en": {
+      "title": "White bed with a tall channelled headboard",
+      "description": "Large vertical panels cover the headboard.",
+      "details": [
+        "The photograph shows the padded frame and its interior without a mattress."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/73febc0cf1bdb9afe760c6777f4bd300d50ab0a5d922f5201ac50ae008b2ffb1.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Lit blanc à haut dossier cannelé",
+        "ar": "سرير أبيض بلوح رأس مرتفع ومضلّع",
+        "en": "White bed with a tall channelled headboard"
+      }
+    }
+  ]
+}

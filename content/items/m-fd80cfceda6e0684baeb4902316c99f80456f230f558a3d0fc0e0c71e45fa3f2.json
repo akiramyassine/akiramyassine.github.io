@@ -1,0 +1,40 @@
+{
+  "id": "m-fd80cfceda6e0684baeb4902316c99f80456f230f558a3d0fc0e0c71e45fa3f2",
+  "kind": "portfolio",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Salon taupe en U à coussins terracotta",
+      "description": "Les assises à coutures droites encadrent un sol à motif géométrique.",
+      "details": [
+        "Des coussins terracotta et ocre contrastent avec le revêtement taupe."
+      ]
+    },
+    "ar": {
+      "title": "صالون رمادي بني على شكل U بوسائد طينية اللون",
+      "description": "تحيط المقاعد ذات الخياطة المستقيمة بأرضية ذات نقش هندسي.",
+      "details": [
+        "وتبرز وسائد بلون الطين والمغرة على الكسوة الرمادية البنية."
+      ]
+    },
+    "en": {
+      "title": "Taupe U-shaped seating with terracotta cushions",
+      "description": "Straight-stitched seats frame a geometric floor.",
+      "details": [
+        "Terracotta and ochre cushions stand against the taupe upholstery."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/fd80cfceda6e0684baeb4902316c99f80456f230f558a3d0fc0e0c71e45fa3f2.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Salon taupe en U à coussins terracotta",
+        "ar": "صالون رمادي بني على شكل U بوسائد طينية اللون",
+        "en": "Taupe U-shaped seating with terracotta cushions"
+      }
+    }
+  ]
+}

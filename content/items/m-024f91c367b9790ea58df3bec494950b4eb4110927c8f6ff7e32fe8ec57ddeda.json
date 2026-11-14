@@ -1,0 +1,40 @@
+{
+  "id": "m-024f91c367b9790ea58df3bec494950b4eb4110927c8f6ff7e32fe8ec57ddeda",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Ensemble de banquettes bleu argenté",
+      "description": "Les banquettes à coussins à motifs sont disposées autour d’un espace central.",
+      "details": [
+        "La photo montre également les dossiers extérieurs clairs."
+      ]
+    },
+    "ar": {
+      "title": "طقم مقاعد باللون الأزرق الفضي",
+      "description": "تنتظم المقاعد ذات الوسائد المزخرفة حول مساحة وسطية.",
+      "details": [
+        "وتظهر في الصورة أيضًا الظهور الخارجية الفاتحة."
+      ]
+    },
+    "en": {
+      "title": "Silver-blue bench seating set",
+      "description": "Patterned cushions line benches arranged around an open centre.",
+      "details": [
+        "The photograph also shows the light outer backs."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/024f91c367b9790ea58df3bec494950b4eb4110927c8f6ff7e32fe8ec57ddeda.webp",
+      "width": 1084,
+      "height": 1600,
+      "alt": {
+        "fr": "Ensemble de banquettes bleu argenté",
+        "ar": "طقم مقاعد باللون الأزرق الفضي",
+        "en": "Silver-blue bench seating set"
+      }
+    }
+  ]
+}

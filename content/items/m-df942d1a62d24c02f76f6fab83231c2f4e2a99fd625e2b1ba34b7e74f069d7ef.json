@@ -1,0 +1,50 @@
+{
+  "id": "m-df942d1a62d24c02f76f6fab83231c2f4e2a99fd625e2b1ba34b7e74f069d7ef",
+  "kind": "catalogue",
+  "category": "canapes",
+  "translations": {
+    "fr": {
+      "title": "Canapé droit gris avec deux poufs",
+      "description": "Une assise continue repose sur une base à panneaux.",
+      "details": [
+        "Le dossier est strié verticalement et la vue de face montre deux poufs assortis."
+      ]
+    },
+    "ar": {
+      "title": "أريكة مستقيمة رمادية مع مقعدين صغيرين",
+      "description": "يرتكز المقعد المتصل على قاعدة مقسّمة إلى ألواح.",
+      "details": [
+        "ويظهر الظهر بخطوط عمودية مع مقعدين صغيرين متناسقين في الصورة الأمامية."
+      ]
+    },
+    "en": {
+      "title": "Straight grey sofa with two ottomans",
+      "description": "A continuous seat sits on a panelled base.",
+      "details": [
+        "The back is vertically channelled, and the front view shows two matching ottomans."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/df942d1a62d24c02f76f6fab83231c2f4e2a99fd625e2b1ba34b7e74f069d7ef.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Canapé droit gris avec deux poufs",
+        "ar": "أريكة مستقيمة رمادية مع مقعدين صغيرين",
+        "en": "Straight grey sofa with two ottomans"
+      }
+    },
+    {
+      "src": "/media/a9b234ab51275cb2415918ebedfccb2874630c572ff469682965b1deaf39d32d.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Canapé gris vu de biais, sans les poufs",
+        "ar": "منظر جانبي للأريكة الرمادية دون المقعدين الصغيرين",
+        "en": "Angled view of the grey sofa without the ottomans"
+      }
+    }
+  ]
+}

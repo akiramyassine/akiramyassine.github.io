@@ -1,0 +1,40 @@
+{
+  "id": "m-ac0559b823c442a462cf522afe566733128977ea11ab30b27b94cccea90b788f",
+  "kind": "catalogue",
+  "category": "lits",
+  "translations": {
+    "fr": {
+      "title": "Lits coffres bleu pétrole à accents dorés",
+      "description": "Les deux cadres ont des têtes rembourrées à bandes dorées.",
+      "details": [
+        "Sur l’un d’eux, le plateau relevé montre l’intérieur du coffre."
+      ]
+    },
+    "ar": {
+      "title": "سريرا تخزين باللون الأزرق البترولي ولمسات ذهبية",
+      "description": "للإطارين لوحا رأس مبطّنان بشرائط ذهبية اللون.",
+      "details": [
+        "وتكشف القاعدة المرفوعة لأحدهما عن صندوق التخزين."
+      ]
+    },
+    "en": {
+      "title": "Petrol blue lift-up beds with gold-tone accents",
+      "description": "Both frames have padded headboards with gold-tone strips.",
+      "details": [
+        "One raised deck shows the storage compartment."
+      ]
+    }
+  },
+  "images": [
+    {
+      "src": "/media/ac0559b823c442a462cf522afe566733128977ea11ab30b27b94cccea90b788f.webp",
+      "width": 1600,
+      "height": 1204,
+      "alt": {
+        "fr": "Lits coffres bleu pétrole à accents dorés",
+        "ar": "سريرا تخزين باللون الأزرق البترولي ولمسات ذهبية",
+        "en": "Petrol blue lift-up beds with gold-tone accents"
+      }
+    }
+  ]
+}
