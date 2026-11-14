@@ -10,6 +10,7 @@ const text = z.string().trim().min(1);
 const https = z.string().url().startsWith('https://');
 const businessSchema = z.object({
   name: text,
+  nameAr: text,
   phone: z.string().regex(/^\+[1-9]\d{7,14}$/),
   phoneLabel: text,
   whatsapp: z.string().regex(/^[1-9]\d{7,14}$/),

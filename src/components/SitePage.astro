@@ -1,6 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import { asset, business, categories, cityAddress, copy, items, itemPath, listing, route, whatsapp, type Item, type Locale } from '../lib/content';
+import { asset, business, businessName, categories, cityAddress, copy, items, itemPath, listing, route, whatsapp, type Item, type Locale } from '../lib/content';
 
 interface Props { lang: Locale; path: string; item?: Item; category?: string; }
 const { lang, path, item, category } = Astro.props;
@@ -27,7 +27,7 @@ const chat = whatsapp(item ? t.itemQuestion + ' « ' + title + ' » (' + item.id
           </div>
         </div>
         <div class="brand-panel">
-          <img src={asset('brand.webp')} width="800" height="616" alt={business.name + ' · ' + t.identity} fetchpriority="high" />
+          <img src={asset('brand.webp')} width="800" height="616" alt={businessName(lang) + ' · ' + t.identity} fetchpriority="high" />
         </div>
       </div>
     </section>
