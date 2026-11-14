@@ -18,12 +18,11 @@ npm run dev
 
 ## GitHub Pages et DNS
 
-1. Créer le dépôt GitHub, initialiser Git sur la branche `main` dans ce dossier, puis ajouter le dépôt comme distant. Publier les sources et `package-lock.json`. Le dépôt doit être admissible à GitHub Pages.
+1. Le dépôt de publication est `akiramyassine/akiramyassine.github.io`, sur la branche `main`. GitHub Pages sert le site à la racine de [akiramyassine.github.io](https://akiramyassine.github.io/).
 2. Dans **Settings → Pages**, sélectionner **GitHub Actions** comme source. Le workflow `pages.yml` vérifie les pull requests. Sur `main`, il vérifie puis déploie après un push ou un lancement manuel.
-3. Dans Pages, renseigner `akiramyassine.gt.tc` comme domaine personnalisé. Auprès du gestionnaire DNS de `gt.tc`, créer le CNAME de ce sous-domaine vers `<propriétaire>.github.io`. Le gestionnaire doit permettre la création de cet enregistrement. Après validation DNS et émission du certificat, activer **Enforce HTTPS**.
-4. Valider une première exécution Pages. Le workflow détecte l’URL active, y compris le sous-chemin de l’URL GitHub Pages avant le raccordement du domaine. Relancer le workflow après le changement de domaine pour régénérer les liens et le sitemap. Contrôler le domaine, `/ar/`, `/en/`, la carte et le lien WhatsApp sur téléphone. Le numéro WhatsApp est déduit du numéro marocain de la carte de visite. Confirmer qu’il est enregistré sur WhatsApp ou corriger `whatsapp` dans `content/business.json`.
+3. Le workflow détecte l’URL active de Pages pour générer les liens et le sitemap. Contrôler `/ar/`, `/en/`, la carte et le lien WhatsApp sur téléphone. Le numéro WhatsApp est déduit du numéro marocain de la carte de visite. Confirmer qu’il est enregistré sur WhatsApp ou corriger `whatsapp` dans `content/business.json`.
 
-[Déploiement Astro sur GitHub Pages](https://docs.astro.build/en/guides/deploy/github/) · [Domaine personnalisé et CNAME](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site)
+[Déploiement Astro sur GitHub Pages](https://docs.astro.build/en/guides/deploy/github/)
 
 ## Connecter Drive et l’IA
 
