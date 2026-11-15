@@ -477,34 +477,28 @@
     "5e37e85fd17049ed123010e469d60e006ed1863809db7f40b2f60a69673b129f": {
       "visual": "cdab2f2b2b326b4b",
       "analysis": {
-        "category": "fauteuils",
+        "category": null,
         "translations": {
           "fr": {
-            "title": "Fauteuil crème à dossier ouvert",
-            "description": "L’accoudoir arrondi se prolonge autour du dossier, au-dessus d’une ouverture.",
-            "details": [
-              "Le revêtement clair présente une texture bouclée."
-            ]
+            "title": "Photo exclue",
+            "description": "Photo exclue",
+            "details": []
           },
           "ar": {
-            "title": "كرسي بذراعين كريمي بظهر مفتوح",
-            "description": "يمتد مسند الذراع المنحني حول الظهر فوق فتحة واضحة.",
-            "details": [
-              "ويظهر على الكسوة الفاتحة نسيج بحلقات صغيرة."
-            ]
+            "title": "صورة مستبعدة",
+            "description": "صورة مستبعدة",
+            "details": []
           },
           "en": {
-            "title": "Cream open-back armchair",
-            "description": "The curved arm wraps around the back above an open gap.",
-            "details": [
-              "The light upholstery has a looped texture."
-            ]
+            "title": "Excluded photo",
+            "description": "Excluded photo",
+            "details": []
           }
         },
         "alt": {
-          "fr": "Fauteuil crème à dossier ouvert",
-          "ar": "كرسي بذراعين كريمي بظهر مفتوح",
-          "en": "Cream open-back armchair"
+          "fr": "Photo exclue",
+          "ar": "صورة مستبعدة",
+          "en": "Excluded photo"
         }
       }
     },
@@ -613,34 +607,28 @@
     "7a3ade5b33bab3ee37ae78bc0fe73dbffefb4a238c3ebd9f0585abf5567a7035": {
       "visual": "303d87c7e23a1a89",
       "analysis": {
-        "category": "fauteuils",
+        "category": null,
         "translations": {
           "fr": {
-            "title": "Fauteuil crème à dossier ouvert",
-            "description": "L’accoudoir arrondi se prolonge autour du dossier, au-dessus d’une ouverture.",
-            "details": [
-              "Le revêtement clair présente une texture bouclée."
-            ]
+            "title": "Photo exclue",
+            "description": "Photo exclue",
+            "details": []
           },
           "ar": {
-            "title": "كرسي بذراعين كريمي بظهر مفتوح",
-            "description": "يمتد مسند الذراع المنحني حول الظهر فوق فتحة واضحة.",
-            "details": [
-              "ويظهر على الكسوة الفاتحة نسيج بحلقات صغيرة."
-            ]
+            "title": "صورة مستبعدة",
+            "description": "صورة مستبعدة",
+            "details": []
           },
           "en": {
-            "title": "Cream open-back armchair",
-            "description": "The curved arm wraps around the back above an open gap.",
-            "details": [
-              "The light upholstery has a looped texture."
-            ]
+            "title": "Excluded photo",
+            "description": "Excluded photo",
+            "details": []
           }
         },
         "alt": {
-          "fr": "Rangée de fauteuils crème à dossiers ouverts",
-          "ar": "صف من الكراسي الكريمية ذات الظهر المفتوح",
-          "en": "Row of cream open-back armchairs"
+          "fr": "Photo exclue",
+          "ar": "صورة مستبعدة",
+          "en": "Excluded photo"
         }
       }
     },
@@ -1376,11 +1364,9 @@
     "4f63a57bfb5a6cfbd7a6cb55f909eed792c4854d24e7fd7ec442006a5bb60c6e",
     "4fa40e5e550ebfe1527e06681bebcb815529c7123452442d9df4564bd1849df9",
     "5756837709672f4ca835a566b04a5658b22b50a882473f9bf56a871c9cdd5209",
-    "5e37e85fd17049ed123010e469d60e006ed1863809db7f40b2f60a69673b129f",
     "622fcbd82dc6a181fd034486e7855e87b2119c9d07bad1bc5aab599acee3f4e4",
     "63c47ccb711549ecb65a0da2d30f7ae93e7f8356f1da8d106a1afd2bb940be14",
     "73febc0cf1bdb9afe760c6777f4bd300d50ab0a5d922f5201ac50ae008b2ffb1",
-    "7a3ade5b33bab3ee37ae78bc0fe73dbffefb4a238c3ebd9f0585abf5567a7035",
     "7da9b55318c029c1b1d872039358c3b00d45d1de1a6550984984d30fbc41c335",
     "842bcbe5bbe48606c2370feac75634b6942d751dce63d2d57a680f43dc4f4ce6",
     "8430526246859c8e1347ff0b3c2e37911d0555598319e22ada6e7c691a319478",
