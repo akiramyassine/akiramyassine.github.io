@@ -60,7 +60,13 @@ h2 { font-size: clamp(1.9rem, 4vw, 3rem); }
 .card { border: 1px solid var(--line); text-decoration: none; max-width: 30rem; background: #fffaf3; }
 .card img { width: 100%; aspect-ratio: 4/3; object-fit: cover; }
 .card div { padding: 1rem; }
-.card h2 { font-size: 1.5rem; }
+.card :is(h2, h3) { font: 520 1.5rem/1.2 var(--serif); margin: 0; }
+[dir=rtl] .card :is(h2, h3) { font-family: Georgia, 'Times New Roman', serif; }
+.custom-guide, .opening-hours { border-block-start: 1px solid var(--line); margin-block: 1.5rem; padding-block-start: 1.15rem; }
+.custom-guide h2, .opening-hours h2 { font-size: 1.45rem; }
+.custom-guide p, .opening-hours p { color: var(--muted); line-height: 1.6; }
+.opening-hours dl { display: grid; grid-template-columns: max-content 1fr; gap: .5rem 1rem; }
+.opening-hours dd { margin: 0; }
 .card p { color: var(--muted); margin-block: 0 .5rem; }
 .detail, .contact { display: grid; grid-template-columns: 1fr 1fr; gap: clamp(1.6rem, 5vw, 5rem); align-items: start; }
 .detail { margin-block-start: 1.5rem; }

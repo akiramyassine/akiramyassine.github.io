@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import ItemCard from './ItemCard.astro';
 import { asset, business, businessName, categories, cityAddress, copy, items, itemPath, listing, route, whatsapp, type Item, type Locale } from '../lib/content';
 
 interface Props { lang: Locale; path: string; item?: Item; category?: string; }
@@ -11,7 +12,11 @@ const section = portfolio ? 'realisations' : 'catalogue';
 const title = item?.translations[lang].title ?? (category ? categories[category][lang] : portfolio ? t.portfolio : catalog ? t.catalog : path ? t.contactTitle : t.hero);
 const description = item?.translations[lang].description ?? (portfolio ? t.portfolioIntro : catalog ? t.catalogIntro : t.intro);
 const entries = items.filter(entry => listing(entry.kind) === section && (!category || entry.category === category));
-const chat = whatsapp(item ? t.itemQuestion + ' « ' + title + ' » (' + item.id + ').' : t.question);
+const chat = whatsapp(item
+  ? t.itemQuestion.replace(/\{(title|url)\}/g, (_, field) =>
+      field === 'title' ? title : new URL(route(lang, itemPath(item)), Astro.site).href)
+  : t.question);
+const featured = items.filter(entry => entry.kind === 'portfolio' && business.featuredPortfolio.includes(entry.id));
 ---
 <Layout {lang} {path} {title} {description} image={item?.images[0].src}>
   {!path ? <>
@@ -37,6 +42,13 @@ const chat = whatsapp(item ? t.itemQuestion + ' « ' + title + ' » (' + item.id
         {Object.entries(categories).map(([key, labels]) => <a class="category-card" href={route(lang, 'catalogue/categorie/' + key)}><span>{labels[lang]}</span><span aria-hidden="true">↗</span></a>)}
       </div>
     </section>
+    {featured.length > 0 && <section class="wrap section">
+      <h2>{t.featuredTitle}</h2>
+      <div class="cards">
+        {featured.map(entry => <ItemCard {entry} {lang} heading="h3" />)}
+      </div>
+      <div class="actions"><a class="button outline" href={route(lang, 'realisations')}>{t.browsePortfolio}</a></div>
+    </section>}
   </> : item ? (
     <section class="wrap section">
       <a class="back" href={route(lang, section)}>{t.back} · {portfolio ? t.portfolio : t.catalog}</a>
@@ -49,7 +61,11 @@ const chat = whatsapp(item ? t.itemQuestion + ' « ' + title + ' » (' + item.id
           <h1>{title}</h1>
           <p class="lead">{description}</p>
           <ul>{item.translations[lang].details.map(detail => <li>{detail}</li>)}</ul>
-          <a class="button primary" href={chat}>{t.chat}</a>
+          <section class="custom-guide">
+            <h2>{t.customTitle}</h2>
+            <p>{t.customGuide}</p>
+          </section>
+          <a class="button primary" href={chat}>{t.itemChat}</a>
         </div>
       </div>
     </section>
@@ -63,10 +79,7 @@ const chat = whatsapp(item ? t.itemQuestion + ' « ' + title + ' » (' + item.id
         {Object.entries(categories).map(([key, labels]) => <a href={route(lang, 'catalogue/categorie/' + key)} aria-current={category === key ? 'page' : undefined}>{labels[lang]}</a>)}
       </div>}
       {entries.length > 0 ? <div class="cards">
-        {entries.map(entry => <a class="card" href={route(lang, itemPath(entry))}>
-          <img src={asset(entry.images[0].src)} width={entry.images[0].width} height={entry.images[0].height} alt={entry.images[0].alt[lang]} loading="lazy" />
-          <div><p>{categories[entry.category][lang]}</p><h2>{entry.translations[lang].title}</h2></div>
-        </a>)}
+        {entries.map(entry => <ItemCard {entry} {lang} />)}
       </div> : <p class="empty">{portfolio ? t.portfolioEmpty : t.empty}</p>}
     </section>
   ) : (
@@ -77,6 +90,16 @@ const chat = whatsapp(item ? t.itemQuestion + ' « ' + title + ' » (' + item.id
         <address><bdi>{business.street}<br />{cityAddress}</bdi></address>
         <p><a href={'tel:' + business.phone}><bdi>{business.phoneLabel}</bdi></a></p>
         <p>Facebook · <bdi>{business.facebook}</bdi></p>
+        <section class="opening-hours">
+          <h2>{t.hoursTitle}</h2>
+          <dl>
+            <dt>{t.openDays}</dt>
+            <dd><bdi><time datetime={business.openingHours.opens}>{business.openingHours.opens}</time>–<time datetime={business.openingHours.closes}>{business.openingHours.closes}</time></bdi></dd>
+            <dt>{t.sunday}</dt>
+            <dd>{t.closed}</dd>
+          </dl>
+          <p>{t.holidayHours}</p>
+        </section>
         <div class="actions"><a class="button primary" href={chat}>{t.chat}</a><a class="button outline" href={business.maps}>{t.map}</a></div>
       </div>
       <iframe src={business.embed} title={t.mapFrame} loading="lazy" allowfullscreen referrerpolicy="strict-origin-when-cross-origin"></iframe>

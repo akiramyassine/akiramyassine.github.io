@@ -1,6 +1,12 @@
 {
   "name": "Yassine Akiram",
   "nameAr": "ياسين عكيرم",
+  "openingHours": { "opens": "09:00", "closes": "19:00" },
+  "featuredPortfolio": [
+    "m-2572f5bf408eca6f9a1da0149a8967fb6a36dcfa8f9432b996b8b078d6cd4872",
+    "m-170a5c6415b18f3f4d1f10f62cc399d17a563791be3045f7667cd8fe9578e123",
+    "m-e0c064a0272631d6dd64b8bde3a4ca3b55269cc54977bc7e2b3bea6ed70f90f2"
+  ],
   "phone": "+212620069078",
   "phoneLabel": "06 20 06 90 78",
   "whatsapp": "212620069078",

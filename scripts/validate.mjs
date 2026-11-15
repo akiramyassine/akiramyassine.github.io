@@ -11,6 +11,11 @@ const https = z.string().url().startsWith('https://');
 const businessSchema = z.object({
   name: text,
   nameAr: text,
+  openingHours: z.object({
+    opens: z.string().regex(/^(?:[01]\d|2[0-3]):[0-5]\d$/),
+    closes: z.string().regex(/^(?:[01]\d|2[0-3]):[0-5]\d$/),
+  }).strict(),
+  featuredPortfolio: z.array(z.string().regex(/^m-[a-f0-9]{64}$/)).max(3),
   phone: z.string().regex(/^\+[1-9]\d{7,14}$/),
   phoneLabel: text,
   whatsapp: z.string().regex(/^[1-9]\d{7,14}$/),

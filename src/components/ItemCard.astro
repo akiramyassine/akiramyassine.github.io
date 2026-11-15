@@ -1,0 +1,11 @@
+---
+import { asset, categories, itemPath, route, type Item, type Locale } from '../lib/content';
+
+interface Props { entry: Item; lang: Locale; heading?: 'h2' | 'h3'; }
+const { entry, lang, heading: Heading = 'h2' } = Astro.props;
+const photo = entry.images[0];
+---
+<a class="card" href={route(lang, itemPath(entry))}>
+  <img src={asset(photo.src)} width={photo.width} height={photo.height} alt={photo.alt[lang]} loading="lazy" />
+  <div><p>{categories[entry.category][lang]}</p><Heading>{entry.translations[lang].title}</Heading></div>
+</a>
